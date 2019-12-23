@@ -6128,7 +6128,6 @@ ns.anycast.nic.gs.	172800	IN	A	204.61.216.21
 ns.anycast.nic.gs.	172800	IN	AAAA	2001:500:14:6021:ad:0:0:1
 gt.			172800	IN	NS	a.lactld.org.
 gt.			172800	IN	NS	ns.dns.br.
-gt.			172800	IN	NS	ns3.nic.mx.
 gt.			172800	IN	NS	pch.gt.
 gt.			172800	IN	NS	sns-pb.isc.org.
 gt.			172800	IN	NS	ssdns-tld.nic.cl.
@@ -9486,11 +9485,6 @@ movie.			172800	IN	NS	demand.delta.aridns.net.au.
 movie.			172800	IN	NS	demand.gamma.aridns.net.au.
 movie.			86400	IN	DS	56164 8 1 9CEA6FF5DD1E0A613B88543734A5C86FF2949E7F
 movie.			86400	IN	DS	56164 8 2 9306EE2948CEC3CDF599F2065C0B9928E32C55FD67E7AF7AD787BAA4E2E46902
-movistar.		172800	IN	NS	anycast9.irondns.net.
-movistar.		172800	IN	NS	anycast10.irondns.net.
-movistar.		172800	IN	NS	anycast23.irondns.net.
-movistar.		172800	IN	NS	anycast24.irondns.net.
-movistar.		86400	IN	DS	25776 10 2 3B7D968230858CFFB0CFB1149E5DB04E635EA7E99A960CB164EC9298D1A37F2F
 mp.			172800	IN	NS	ns1.nic.mp.
 mp.			172800	IN	NS	ns2.nic.mp.
 mp.			172800	IN	NS	ns3.nic.mp.
@@ -14209,11 +14203,6 @@ ns7.dns.nic.tel.	172800	IN	A	194.146.106.38
 ns7.dns.nic.tel.	172800	IN	AAAA	2001:67c:1010:9:0:0:0:53
 ns8.dns.nic.tel.	172800	IN	A	192.36.144.116
 ns8.dns.nic.tel.	172800	IN	AAAA	2a01:3f0:0:300:0:0:0:53
-telefonica.		172800	IN	NS	anycast9.irondns.net.
-telefonica.		172800	IN	NS	anycast10.irondns.net.
-telefonica.		172800	IN	NS	anycast23.irondns.net.
-telefonica.		172800	IN	NS	anycast24.irondns.net.
-telefonica.		86400	IN	DS	50682 10 2 BA54B65FD1CA7C8A097EADFB429096F2EDF3EA55460A674BEE40563D5344F537
 temasek.		172800	IN	NS	a0.nic.temasek.
 temasek.		172800	IN	NS	a2.nic.temasek.
 temasek.		172800	IN	NS	b0.nic.temasek.
