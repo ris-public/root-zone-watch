@@ -12882,7 +12882,6 @@ se.			172800	IN	NS	c.ns.se.
 se.			172800	IN	NS	f.ns.se.
 se.			172800	IN	NS	g.ns.se.
 se.			172800	IN	NS	i.ns.se.
-se.			172800	IN	NS	j.ns.se.
 se.			172800	IN	NS	x.ns.se.
 se.			172800	IN	NS	y.ns.se.
 se.			172800	IN	NS	z.ns.se.
@@ -12905,8 +12904,6 @@ g.ns.se.		172800	IN	A	130.239.5.114
 g.ns.se.		172800	IN	AAAA	2001:6b0:e:3:0:0:0:1
 i.ns.se.		172800	IN	A	194.146.106.22
 i.ns.se.		172800	IN	AAAA	2001:67c:1010:5:0:0:0:53
-j.ns.se.		172800	IN	A	199.254.63.1
-j.ns.se.		172800	IN	AAAA	2001:500:2c:0:0:0:0:1
 x.ns.se.		172800	IN	A	213.108.25.4
 x.ns.se.		172800	IN	AAAA	2001:67c:124c:e000:0:0:0:4
 y.ns.se.		172800	IN	A	185.159.197.150
