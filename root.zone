@@ -8254,11 +8254,6 @@ g.nic.li.		172800	IN	A	194.0.1.40
 g.nic.li.		172800	IN	AAAA	2001:678:4:0:0:0:0:28
 h.nic.li.		172800	IN	A	85.119.5.230
 h.nic.li.		172800	IN	AAAA	2a03:bd80:36:0:0:1:203:230
-liaison.		172800	IN	NS	ac1.nstld.com.
-liaison.		172800	IN	NS	ac2.nstld.com.
-liaison.		172800	IN	NS	ac3.nstld.com.
-liaison.		172800	IN	NS	ac4.nstld.com.
-liaison.		86400	IN	DS	6096 8 2 9ED72FB3336F4AF86A62F628A8DA7C54D751CF7944ED13C0331C2E39ADBA1AC7
 lidl.			172800	IN	NS	a.nic.lidl.
 lidl.			172800	IN	NS	b.nic.lidl.
 lidl.			172800	IN	NS	c.nic.lidl.
@@ -9644,7 +9639,6 @@ na.			172800	IN	NS	b.na.dyntld.net.
 na.			172800	IN	NS	anyc2.irondns.net.
 na.			172800	IN	NS	na-ns.anycast.pch.net.
 na.			172800	IN	NS	merlin.net.na.
-na.			172800	IN	NS	sns-pb.isc.org.
 na.			86400	IN	DS	24484 5 1 EFC19D4685751FF8E11F96142A083DCB9C708912
 merlin.net.na.		172800	IN	A	204.152.184.96
 nab.			172800	IN	NS	ac1.nstld.com.
