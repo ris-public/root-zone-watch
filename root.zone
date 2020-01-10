@@ -1612,11 +1612,12 @@ bf.			172800	IN	NS	ns-bf.afrinic.net.
 bf.			172800	IN	NS	nahouri.onatel.bf.
 bf.			172800	IN	NS	censvrns0001.ird.fr.
 nahouri.onatel.bf.	172800	IN	A	206.82.130.196
-bg.			172800	IN	NS	ns.register.bg.
-bg.			172800	IN	NS	ns2.register.bg.
-bg.			172800	IN	NS	ns3.register.bg.
-bg.			172800	IN	NS	ns4.register.bg.
-bg.			172800	IN	NS	ns5.register.bg.
+bg.			172800	IN	NS	a.nic.bg.
+bg.			172800	IN	NS	b.nic.bg.
+bg.			172800	IN	NS	c.nic.bg.
+bg.			172800	IN	NS	d.nic.bg.
+bg.			172800	IN	NS	e.nic.bg.
+bg.			172800	IN	NS	p.nic.bg.
 bg.			172800	IN	NS	sns-pb.isc.org.
 bg.			86400	IN	DS	46846 5 1 1D83F503CCED4A4B6F7F8DB1CF43D38F9133A3EA
 bg.			86400	IN	DS	46846 5 2 26811E459C850F50A85D1EAF589E30DC14D09D1A6E6262E8D36B6BFFC605334C
@@ -1630,18 +1631,10 @@ c.nic.bg.		172800	IN	A	193.68.99.99
 c.nic.bg.		172800	IN	AAAA	2a02:6a80:0:0:193:68:99:99
 d.nic.bg.		172800	IN	A	194.0.32.1
 d.nic.bg.		172800	IN	AAAA	2001:678:3c:0:0:0:0:1
+e.nic.bg.		172800	IN	A	185.143.80.1
+e.nic.bg.		172800	IN	AAAA	2a02:6a80:530e:0:0:0:0:1
 p.nic.bg.		172800	IN	A	204.61.216.110
 p.nic.bg.		172800	IN	AAAA	2001:500:14:6110:ad:0:0:1
-ns.register.bg.		172800	IN	A	192.92.129.99
-ns.register.bg.		172800	IN	AAAA	2a02:6a80:0:0:192:92:129:99
-ns2.register.bg.	172800	IN	A	193.68.3.232
-ns2.register.bg.	172800	IN	AAAA	2a02:6a80:0:0:193:68:3:232
-ns3.register.bg.	172800	IN	A	193.68.99.99
-ns3.register.bg.	172800	IN	AAAA	2a02:6a80:0:0:193:68:99:99
-ns4.register.bg.	172800	IN	A	194.0.32.1
-ns4.register.bg.	172800	IN	AAAA	2001:678:3c:0:0:0:0:1
-ns5.register.bg.	172800	IN	A	185.143.80.1
-ns5.register.bg.	172800	IN	AAAA	2a02:6a80:0:0:193:68:21:71
 bh.			172800	IN	NS	a.bh.centralnic-dns.com.
 bh.			172800	IN	NS	b.bh.centralnic-dns.com.
 bh.			172800	IN	NS	c.bh.centralnic-dns.com.
@@ -12387,7 +12380,6 @@ rs.			172800	IN	NS	b.nic.rs.
 rs.			172800	IN	NS	f.nic.rs.
 rs.			172800	IN	NS	g.nic.rs.
 rs.			172800	IN	NS	h.nic.rs.
-rs.			172800	IN	NS	k.nic.rs.
 rs.			172800	IN	NS	l.nic.rs.
 rs.			86400	IN	DS	64642 8 2 D76A68B41D96A5DAD95216456894E5E539983F39A3DF838DD597BDF21C8B8C2B
 a.nic.rs.		172800	IN	A	91.199.17.59
@@ -12398,8 +12390,6 @@ f.nic.rs.		172800	IN	AAAA	2001:500:14:6032:ad:0:0:1
 g.nic.rs.		172800	IN	A	147.91.8.6
 h.nic.rs.		172800	IN	A	91.199.17.60
 h.nic.rs.		172800	IN	AAAA	2001:67c:69c:0:0:0:0:60
-k.nic.rs.		172800	IN	A	192.5.4.1
-k.nic.rs.		172800	IN	AAAA	2001:500:2e:0:0:0:0:1
 l.nic.rs.		172800	IN	A	194.146.106.114
 l.nic.rs.		172800	IN	AAAA	2001:67c:1010:29:0:0:0:53
 rsvp.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
@@ -16229,13 +16219,13 @@ xn--90a3ac.		172800	IN	NS	b.nic.rs.
 xn--90a3ac.		172800	IN	NS	f.nic.rs.
 xn--90a3ac.		172800	IN	NS	g.nic.rs.
 xn--90a3ac.		172800	IN	NS	h.nic.rs.
-xn--90a3ac.		172800	IN	NS	k.nic.rs.
 xn--90a3ac.		172800	IN	NS	l.nic.rs.
 xn--90a3ac.		86400	IN	DS	13630 8 2 56B1762F46F44A27B87451DF98418C54BA128D2C5ACF37F6C753F6C70431598C
 xn--90ae.		172800	IN	NS	a.nic.bg.
 xn--90ae.		172800	IN	NS	b.nic.bg.
 xn--90ae.		172800	IN	NS	c.nic.bg.
 xn--90ae.		172800	IN	NS	d.nic.bg.
+xn--90ae.		172800	IN	NS	e.nic.bg.
 xn--90ae.		172800	IN	NS	p.nic.bg.
 xn--90ae.		172800	IN	NS	sns-pb.isc.org.
 xn--90ae.		86400	IN	DS	55126 8 2 0669C2EB01C870DAE3EF098917DA83562B431531334A531E9814F117557509D7
