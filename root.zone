@@ -1093,13 +1093,15 @@ b0.nic.avianca.		172800	IN	AAAA	2a01:8840:4f:0:0:0:0:17
 c0.nic.avianca.		172800	IN	A	65.22.82.17
 c0.nic.avianca.		172800	IN	AAAA	2a01:8840:50:0:0:0:0:17
 aw.			172800	IN	NS	ns1.dns.aw.
+aw.			172800	IN	NS	ns2.dns.aw.
 aw.			172800	IN	NS	ns3.dns.aw.
 aw.			172800	IN	NS	aw01.setarnet.aw.
 aw.			172800	IN	NS	aw02.setarnet.aw.
-aw.			172800	IN	NS	sns-pb.isc.org.
 aw.			86400	IN	DS	38854 8 2 23FA5636C1D793336A1EB15BBD26AA902CF12FB88200C64512F065AE355A4D9B
 ns1.dns.aw.		172800	IN	A	194.0.28.2
 ns1.dns.aw.		172800	IN	AAAA	2001:678:2c:0:194:0:28:2
+ns2.dns.aw.		172800	IN	A	194.146.106.42
+ns2.dns.aw.		172800	IN	AAAA	2001:67c:1010:10:0:0:0:53
 ns3.dns.aw.		172800	IN	A	194.0.25.25
 ns3.dns.aw.		172800	IN	AAAA	2001:678:20:0:0:0:0:25
 aw01.setarnet.aw.	172800	IN	A	201.229.0.26
@@ -1994,7 +1996,6 @@ bosch.			86400	IN	DS	34683 8 2 17BF6449D9224CA2D30C4B3B941066B9FE7E5E0EE4E6DE60D
 bostik.			172800	IN	NS	d.nic.fr.
 bostik.			172800	IN	NS	f.ext.nic.fr.
 bostik.			172800	IN	NS	g.ext.nic.fr.
-bostik.			86400	IN	DS	1529 8 2 17130BCA01074440A04CCD3F1F18CC9DE61CB8D70960A4AC0E08411900737C48
 bostik.			86400	IN	DS	3734 8 2 5EC62D0B9C87D8B59E901550FF4C0D5366C9D14448FDF8C02112511B6DBB0DBF
 bostik.			86400	IN	DS	39586 8 2 5756D7914FA837812CCE8869102EAD6AA7E08788E84F246BC0F2BC4DC2BE989E
 boston.			172800	IN	NS	dns1.nic.boston.
@@ -3973,30 +3974,16 @@ dnsa.nic.deal.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
 dnsb.nic.deal.		172800	IN	A	156.154.101.3
 dnsc.nic.deal.		172800	IN	A	156.154.102.3
 dnsd.nic.deal.		172800	IN	A	156.154.103.3
-dealer.			172800	IN	NS	ns1.dns.nic.dealer.
-dealer.			172800	IN	NS	ns2.dns.nic.dealer.
-dealer.			172800	IN	NS	ns3.dns.nic.dealer.
-dealer.			172800	IN	NS	ns4.dns.nic.dealer.
-dealer.			172800	IN	NS	ns5.dns.nic.dealer.
-dealer.			172800	IN	NS	ns6.dns.nic.dealer.
+dealer.			172800	IN	NS	ns1.uniregistry.net.
+dealer.			172800	IN	NS	ns2.uniregistry.info.
+dealer.			172800	IN	NS	ns3.uniregistry.net.
+dealer.			172800	IN	NS	ns4.uniregistry.info.
 dealer.			86400	IN	DS	43516 8 1 E4209E3F2BFDBF136D547329F367AE9BD03A3BEB
 dealer.			86400	IN	DS	43516 8 2 AFFEE7DB437839677F9B16547175BFA4F22A0CFC0FC2F374AF5884C523EFA54C
 dealer.			86400	IN	DS	45754 8 1 117BF190BE0889B18B577ED72022209F1BF26C87
 dealer.			86400	IN	DS	45754 8 2 D1BF7EBBCC042B957FDDDFEC69D8D4DCE3AF12A1BF2F8173A561E36A031ED616
 dealer.			86400	IN	DS	46391 8 1 23AF0F956ACE3233046775E31617378B08BD6575
 dealer.			86400	IN	DS	46391 8 2 7D3C3132C9B69189301D4D639F701EA7CB5D2A453609698D7FAB8112CBB4A474
-ns1.dns.nic.dealer.	172800	IN	A	156.154.144.223
-ns1.dns.nic.dealer.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:df
-ns2.dns.nic.dealer.	172800	IN	A	156.154.145.223
-ns2.dns.nic.dealer.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:df
-ns3.dns.nic.dealer.	172800	IN	A	156.154.159.223
-ns3.dns.nic.dealer.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:df
-ns4.dns.nic.dealer.	172800	IN	A	156.154.156.223
-ns4.dns.nic.dealer.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:df
-ns5.dns.nic.dealer.	172800	IN	A	156.154.157.223
-ns5.dns.nic.dealer.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:df
-ns6.dns.nic.dealer.	172800	IN	A	156.154.158.223
-ns6.dns.nic.dealer.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:df
 deals.			172800	IN	NS	demand.beta.aridns.net.au.
 deals.			172800	IN	NS	demand.alpha.aridns.net.au.
 deals.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -6889,7 +6876,6 @@ il.			172800	IN	NS	nsb.ns.il.
 il.			172800	IN	NS	nse.ns.il.
 il.			172800	IN	NS	ilns.ilan.net.il.
 il.			172800	IN	NS	lookup.iucc.ac.il.
-il.			172800	IN	NS	sns-pb.isc.org.
 il.			86400	IN	DS	38495 8 2 CD89F213712829A920CC89C9D20EC89C3EAFF922D4DD03B76C7923AA7C43FB08
 lookup.iucc.ac.il.	172800	IN	A	128.139.34.240
 lookup.iucc.ac.il.	172800	IN	AAAA	2001:bf8:900:6:0:0:808b:22f0
@@ -9624,13 +9610,12 @@ anyns.uem.mz.		172800	IN	A	204.61.216.14
 dzowo.uem.mz.		172800	IN	A	196.3.96.66
 oceano.uem.mz.		172800	IN	A	196.3.96.69
 zebra.uem.mz.		172800	IN	A	196.3.96.67
-na.			172800	IN	NS	a.na.dyntld.net.
-na.			172800	IN	NS	b.na.dyntld.net.
+na.			172800	IN	NS	sdc.omadhina.co.na.
 na.			172800	IN	NS	anyc2.irondns.net.
 na.			172800	IN	NS	na-ns.anycast.pch.net.
-na.			172800	IN	NS	merlin.net.na.
+na.			172800	IN	NS	katima.omadhina.net.
 na.			86400	IN	DS	24484 5 1 EFC19D4685751FF8E11F96142A083DCB9C708912
-merlin.net.na.		172800	IN	A	204.152.184.96
+sdc.omadhina.co.na.	172800	IN	A	200.25.20.98
 nab.			172800	IN	NS	ac1.nstld.com.
 nab.			172800	IN	NS	ac2.nstld.com.
 nab.			172800	IN	NS	ac3.nstld.com.
@@ -9788,7 +9773,9 @@ anytld.apnic.net.	172800	IN	AAAA	2001:dd8:12:0:0:0:0:53
 ns4.apnic.net.		172800	IN	A	202.12.31.53
 ns4.apnic.net.		172800	IN	AAAA	2001:dd8:12:0:0:0:0:53
 dns-st.bahnhof.net.	172800	IN	A	79.136.119.20
+dns-st.bahnhof.net.	172800	IN	AAAA	2001:9b0:1:601:250:56ff:feb7:46
 ns1.bahnhof.net.	172800	IN	A	195.178.160.2
+ns1.bahnhof.net.	172800	IN	AAAA	2001:9b0:1:104:250:56ff:feb7:5c51
 ns17.cdns.net.		172800	IN	A	194.0.1.17
 ns17.cdns.net.		172800	IN	AAAA	2001:678:4:0:0:0:0:11
 ns34.cdns.net.		172800	IN	A	194.0.1.34
@@ -9819,10 +9806,6 @@ fork.sth.dnsnode.net.	172800	IN	A	77.72.229.254
 fork.sth.dnsnode.net.	172800	IN	AAAA	2a01:3f0:0:306:0:0:0:53
 za1.dnsnode.net.	172800	IN	A	194.146.106.78
 za1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:19:0:0:0:53
-a.na.dyntld.net.	172800	IN	A	108.59.162.1
-a.na.dyntld.net.	172800	IN	AAAA	2a02:e180:5:0:0:0:0:1
-b.na.dyntld.net.	172800	IN	A	108.59.163.1
-b.na.dyntld.net.	172800	IN	AAAA	2a02:e180:6:0:0:0:0:1
 a.samsung.dyntld.net.	172800	IN	A	162.88.40.2
 a.samsung.dyntld.net.	172800	IN	AAAA	2600:2000:3010:0:0:0:0:2
 b.samsung.dyntld.net.	172800	IN	A	162.88.41.2
@@ -9956,6 +9939,7 @@ ns1-mq.mediaserv.net.	172800	IN	A	213.16.20.3
 server.nordu.net.	172800	IN	A	193.10.252.19
 server.nordu.net.	172800	IN	AAAA	2001:948:4:2:0:0:0:19
 ns.ntamar.net.		172800	IN	A	117.103.88.33
+katima.omadhina.net.	172800	IN	A	185.2.66.100
 vps443605.ovh.net.	172800	IN	A	37.59.106.21
 bd-ns.anycast.pch.net.	172800	IN	A	204.61.216.108
 bd-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6108:ad:0:0:1
@@ -14684,10 +14668,10 @@ b0.nic.trv.		172800	IN	A	65.22.201.25
 b0.nic.trv.		172800	IN	AAAA	2a01:8840:c3:0:0:0:0:25
 c0.nic.trv.		172800	IN	A	65.22.202.25
 c0.nic.trv.		172800	IN	AAAA	2a01:8840:c4:0:0:0:0:25
+tt.			172800	IN	NS	a.lactld.org.
 tt.			172800	IN	NS	ns3.nic.mx.
 tt.			172800	IN	NS	pch.nic.tt.
 tt.			172800	IN	NS	ripe.nic.tt.
-tt.			172800	IN	NS	sns-pb.isc.org.
 tt.			86400	IN	DS	2539 8 2 B06DFA79674DF3EA8190E7616164414B01E9199B7C94EC1540378A395DAA401F
 pch.nic.tt.		172800	IN	A	204.61.216.63
 pch.nic.tt.		172800	IN	AAAA	2001:500:14:6063:ad:0:0:1
