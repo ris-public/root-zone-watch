@@ -6172,7 +6172,6 @@ gw.			86400	IN	DS	31518 10 2 CAE77FE2299B3A08A4C78B400327C2A62BF65421D4BD9883622
 gy.			172800	IN	NS	a.lactld.org.
 gy.			172800	IN	NS	ns.cocca.fr.
 gy.			172800	IN	NS	gy-ns.anycast.pch.net.
-gy.			172800	IN	NS	sns-pb.isc.org.
 gy.			86400	IN	DS	50885 8 2 6B06025ECCB7EFB21793E58AFD2CE16D5949884F4AC352047DACCD841627A3DF
 hair.			172800	IN	NS	ac1.nstld.com.
 hair.			172800	IN	NS	ac2.nstld.com.
@@ -11736,9 +11735,9 @@ pt.			172800	IN	NS	d.dns.pt.
 pt.			172800	IN	NS	e.dns.pt.
 pt.			172800	IN	NS	f.dns.pt.
 pt.			172800	IN	NS	g.dns.pt.
+pt.			172800	IN	NS	h.dns.pt.
 pt.			172800	IN	NS	ns.dns.br.
 pt.			172800	IN	NS	ns2.nic.fr.
-pt.			172800	IN	NS	sns-pb.isc.org.
 pt.			86400	IN	DS	40995 7 1 43DEDCEEBA41380680784AA531819A6ED8172B6D
 pt.			86400	IN	DS	40995 7 2 ABF415ED56E88C5F05434BBF62CDD90B574D6445A37AE5CC9B84638AB5B9E656
 a.dns.pt.		172800	IN	A	185.39.208.1
@@ -11765,6 +11764,8 @@ gw01.dns.pt.		172800	IN	A	185.39.208.19
 gw01.dns.pt.		172800	IN	AAAA	2a04:6d80:0:0:0:0:0:19
 gw03.dns.pt.		172800	IN	A	204.61.216.114
 gw03.dns.pt.		172800	IN	AAAA	2001:500:14:6114:ad:0:0:1
+h.dns.pt.		172800	IN	A	194.146.106.138
+h.dns.pt.		172800	IN	AAAA	2001:67c:1010:35:0:0:0:53
 pub.			172800	IN	NS	demand.beta.aridns.net.au.
 pub.			172800	IN	NS	demand.alpha.aridns.net.au.
 pub.			172800	IN	NS	demand.delta.aridns.net.au.
