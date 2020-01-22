@@ -262,7 +262,6 @@ adult.			86400	IN	DS	12384 7 2 6864A9D04CDFBD70E07A3144E73D08CBE1C4485C549D8F966
 ae.			172800	IN	NS	ns1.aedns.ae.
 ae.			172800	IN	NS	ns2.aedns.ae.
 ae.			172800	IN	NS	ns4.apnic.net.
-ae.			172800	IN	NS	sns-pb.isc.org.
 ae.			172800	IN	NS	nsext-pch.aedns.ae.
 ns1.aedns.ae.		172800	IN	A	79.98.120.73
 ns2.aedns.ae.		172800	IN	A	79.98.121.73
@@ -6164,9 +6163,9 @@ guru.			172800	IN	NS	demand.delta.aridns.net.au.
 guru.			172800	IN	NS	demand.gamma.aridns.net.au.
 guru.			86400	IN	DS	1099 8 1 CB18983796C66403834575457BBF8E6348B78377
 guru.			86400	IN	DS	1099 8 2 720A477A31283581B1AEACA65A5C86876210C60D6F998847860B4B781420237D
+gw.			172800	IN	NS	h.dns.pt.
 gw.			172800	IN	NS	gw01.dns.pt.
 gw.			172800	IN	NS	gw03.dns.pt.
-gw.			172800	IN	NS	sns-pb.isc.org.
 gw.			86400	IN	DS	31518 10 2 CAE77FE2299B3A08A4C78B400327C2A62BF65421D4BD98836228800C3B0722AA
 gy.			172800	IN	NS	a.lactld.org.
 gy.			172800	IN	NS	ns.cocca.fr.
@@ -8760,17 +8759,20 @@ ly.			172800	IN	NS	ns-ly.afrinic.net.
 ly.			172800	IN	NS	phloem.uoregon.edu.
 pch.ltt.ly.		172800	IN	A	204.61.216.67
 pch.ltt.ly.		172800	IN	AAAA	2001:500:14:6067:ad:0:0:1
+ma.			172800	IN	NS	a.tld.ma.
 ma.			172800	IN	NS	b.tld.ma.
 ma.			172800	IN	NS	c.tld.ma.
 ma.			172800	IN	NS	d.tld.ma.
 ma.			172800	IN	NS	dns.inria.fr.
-ma.			172800	IN	NS	ns1.registre.ma.
 ma.			172800	IN	NS	ns-ma.nic.fr.
 ma.			172800	IN	NS	sns-pb.isc.org.
 ma.			86400	IN	DS	33982 8 2 3B9F33C27C469841B58463BCBCCDF2A4F129B03723BFA760CC9AC6B08DA47C12
 ns1.registre.ma.	172800	IN	A	81.192.171.83
 ns1.registre.ma.	172800	IN	A	81.192.171.131
 ns1.registre.ma.	172800	IN	AAAA	2001:4288:1800:186:0:0:0:3
+a.tld.ma.		172800	IN	A	81.192.171.83
+a.tld.ma.		172800	IN	A	81.192.171.131
+a.tld.ma.		172800	IN	AAAA	2001:4288:1800:186:0:0:0:3
 b.tld.ma.		172800	IN	A	81.192.171.84
 b.tld.ma.		172800	IN	A	81.192.171.132
 b.tld.ma.		172800	IN	AAAA	2001:4288:1800:186:0:0:0:4
@@ -12257,6 +12259,7 @@ c.nic.rmit.		172800	IN	A	37.209.196.9
 c.nic.rmit.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
 d.nic.rmit.		172800	IN	A	37.209.198.9
 d.nic.rmit.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:9
+ro.			172800	IN	NS	dns-c.rotld.ro.
 ro.			172800	IN	NS	dns-at.rotld.ro.
 ro.			172800	IN	NS	dns-ro.denic.de.
 ro.			172800	IN	NS	sns-pb.isc.org.
@@ -12266,6 +12269,8 @@ ro.			172800	IN	NS	sec-dns-b.rotld.ro.
 ro.			86400	IN	DS	61747 8 2 B811661B569943E0EF75F722B4BB7379D9E70620516DD88809077D9F33578780
 dns-at.rotld.ro.	172800	IN	A	78.104.145.6
 dns-at.rotld.ro.	172800	IN	AAAA	2001:628:453:bb:0:0:0:6
+dns-c.rotld.ro.		172800	IN	A	194.0.11.113
+dns-c.rotld.ro.		172800	IN	AAAA	2001:678:e:113:0:0:0:53
 dns-md.rotld.ro.	172800	IN	A	192.162.16.19
 dns-md.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:4:192:162:16:19
 primary.rotld.ro.	172800	IN	A	192.162.16.18
@@ -16849,7 +16854,6 @@ d.nic.xn--mgbaakc7dvf.	172800	IN	A	212.18.249.23
 d.nic.xn--mgbaakc7dvf.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:23
 xn--mgbaam7a8h.		172800	IN	NS	ns1.aedns.ae.
 xn--mgbaam7a8h.		172800	IN	NS	ns2.aedns.ae.
-xn--mgbaam7a8h.		172800	IN	NS	sns-pb.isc.org.
 xn--mgbaam7a8h.		172800	IN	NS	nsext-pch.aedns.ae.
 xn--mgbab2bd.		172800	IN	NS	anycast9.irondns.net.
 xn--mgbab2bd.		172800	IN	NS	anycast10.irondns.net.
