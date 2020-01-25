@@ -16212,7 +16212,6 @@ xn--90ae.		172800	IN	NS	c.nic.bg.
 xn--90ae.		172800	IN	NS	d.nic.bg.
 xn--90ae.		172800	IN	NS	e.nic.bg.
 xn--90ae.		172800	IN	NS	p.nic.bg.
-xn--90ae.		172800	IN	NS	sns-pb.isc.org.
 xn--90ae.		86400	IN	DS	55126 8 2 0669C2EB01C870DAE3EF098917DA83562B431531334A531E9814F117557509D7
 xn--90ais.		172800	IN	NS	dns1.tld.tutby.com.
 xn--90ais.		172800	IN	NS	dns2.tld.tutby.com.
