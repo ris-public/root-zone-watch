@@ -6807,7 +6807,6 @@ ie.			172800	IN	NS	e.ns.ie.
 ie.			172800	IN	NS	f.ns.ie.
 ie.			172800	IN	NS	g.ns.ie.
 ie.			172800	IN	NS	h.ns.ie.
-ie.			86400	IN	DS	44390 8 2 3CA93B563BE78524CA8C960E368C6DFF878AADC105D9054410AF02D64D1BC818
 ie.			86400	IN	DS	49126 8 2 BA0498D6C8F0EE6F19E08CFFC550E2A7AFDF34A0D7F2D222B9E8A1BDD0B429AC
 a.ns.ie.		172800	IN	A	77.72.78.91
 a.ns.ie.		172800	IN	AAAA	2a01:4b0:2:2:0:0:0:91
@@ -15662,8 +15661,10 @@ whoswho.		172800	IN	NS	ns1.dns.nic.whoswho.
 whoswho.		172800	IN	NS	ns2.dns.nic.whoswho.
 whoswho.		172800	IN	NS	ns3.dns.nic.whoswho.
 whoswho.		172800	IN	NS	ns4.dns.nic.whoswho.
-whoswho.		172800	IN	NS	ns5.dns.nic.whoswho.
-whoswho.		172800	IN	NS	ns6.dns.nic.whoswho.
+whoswho.		172800	IN	NS	anycast9.irondns.net.
+whoswho.		172800	IN	NS	anycast10.irondns.net.
+whoswho.		172800	IN	NS	anycast23.irondns.net.
+whoswho.		172800	IN	NS	anycast24.irondns.net.
 whoswho.		86400	IN	DS	1094 8 1 FE0748DF3C28C6B03289BBB55E6418F58544CDAC
 whoswho.		86400	IN	DS	1094 8 2 B35D9BCF8C51A71118E63F2D38A06E25418DB690DBABFB35F0CF9635959B5E5B
 whoswho.		86400	IN	DS	42079 8 1 929AA125DF759EBFCB08CB8E64C2E15AE27C5995
@@ -15678,10 +15679,6 @@ ns3.dns.nic.whoswho.	172800	IN	A	156.154.159.180
 ns3.dns.nic.whoswho.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:b4
 ns4.dns.nic.whoswho.	172800	IN	A	156.154.156.180
 ns4.dns.nic.whoswho.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:b4
-ns5.dns.nic.whoswho.	172800	IN	A	156.154.157.180
-ns5.dns.nic.whoswho.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:b4
-ns6.dns.nic.whoswho.	172800	IN	A	156.154.158.180
-ns6.dns.nic.whoswho.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:b4
 wien.			172800	IN	NS	ns1.ryce-rsp.com.
 wien.			172800	IN	NS	nsa.netnod.se.
 wien.			172800	IN	NS	nsp.netnod.se.
