@@ -1559,7 +1559,6 @@ berlin.			172800	IN	NS	a.dns.nic.berlin.
 berlin.			172800	IN	NS	m.dns.nic.berlin.
 berlin.			172800	IN	NS	n.dns.nic.berlin.
 berlin.			86400	IN	DS	2990 8 2 F711A9E9B09A45C487A324B22DE34DB2831E2A8A0368D0BD0D8D3461470E5FFD
-berlin.			86400	IN	DS	32542 8 2 D17630D166186D037BF97CCE66C936EA45887EE9F8BB28333DCC5D839EC39A10
 berlin.			86400	IN	DS	47974 8 2 B1DDC962A9293CDA1C2AE8F951C86A8F391248C50751AD61F642D46D0F644B41
 a.dns.nic.berlin.	172800	IN	A	194.0.25.16
 a.dns.nic.berlin.	172800	IN	AAAA	2001:678:20:0:0:0:0:16
@@ -6179,7 +6178,6 @@ hamburg.		172800	IN	NS	m.dns.nic.hamburg.
 hamburg.		172800	IN	NS	n.dns.nic.hamburg.
 hamburg.		86400	IN	DS	12136 8 2 8BDC8642F1C0275904AEA61C126D9D5A5DB25881A564348AF218EB4165BEF7C5
 hamburg.		86400	IN	DS	34636 8 2 AE832FDB36452FB14A8FD7065A14A20FC4D119A12FF042704EF83A3B8FEBB213
-hamburg.		86400	IN	DS	53456 8 2 FDF7FA4EB122BD1DEE85C9CF214511B6D565E3211F60F93468321B640DC8AE43
 a.dns.nic.hamburg.	172800	IN	A	194.0.25.21
 a.dns.nic.hamburg.	172800	IN	AAAA	2001:678:20:0:0:0:0:21
 m.dns.nic.hamburg.	172800	IN	A	194.0.26.10
@@ -10877,10 +10875,6 @@ ns-ext.isc.org.		172800	IN	A	204.152.184.64
 ns-ext.isc.org.		172800	IN	AAAA	2001:4f8:0:2:0:0:0:13
 sns-pb.isc.org.		172800	IN	A	192.5.4.1
 sns-pb.isc.org.		172800	IN	AAAA	2001:500:2e:0:0:0:0:1
-ams.sns-pb.isc.org.	172800	IN	A	199.6.1.30
-ams.sns-pb.isc.org.	172800	IN	AAAA	2001:500:60:0:0:0:0:30
-sfba.sns-pb.isc.org.	172800	IN	A	149.20.64.3
-sfba.sns-pb.isc.org.	172800	IN	AAAA	2001:4f8:0:2:0:0:0:19
 a.lactld.org.		172800	IN	A	200.0.68.10
 a.lactld.org.		172800	IN	AAAA	2801:14:a000:0:0:0:0:10
 tld3.ultradns.org.	172800	IN	A	199.7.66.1
@@ -12255,7 +12249,6 @@ d.nic.rmit.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:9
 ro.			172800	IN	NS	dns-c.rotld.ro.
 ro.			172800	IN	NS	dns-at.rotld.ro.
 ro.			172800	IN	NS	dns-ro.denic.de.
-ro.			172800	IN	NS	sns-pb.isc.org.
 ro.			172800	IN	NS	primary.rotld.ro.
 ro.			172800	IN	NS	sec-dns-a.rotld.ro.
 ro.			172800	IN	NS	sec-dns-b.rotld.ro.
@@ -14224,8 +14217,6 @@ th.			172800	IN	NS	b.thains.co.th.
 th.			172800	IN	NS	c.thains.co.th.
 th.			172800	IN	NS	p.thains.co.th.
 th.			172800	IN	NS	ns.thnic.net.
-th.			172800	IN	NS	ams.sns-pb.isc.org.
-th.			172800	IN	NS	sfba.sns-pb.isc.org.
 th.			86400	IN	DS	19117 8 2 E26BF35F73234AC50C600632FC717AE491F4A8B4F662FB29234F5499ACFEBF64
 a.thains.co.th.		172800	IN	A	122.155.23.64
 a.thains.co.th.		172800	IN	AAAA	2001:c38:2000:183:0:0:0:30
