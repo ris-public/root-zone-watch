@@ -1255,7 +1255,6 @@ bank.			172800	IN	NS	e.nic.bank.
 bank.			172800	IN	NS	f.nic.bank.
 bank.			86400	IN	DS	24451 8 1 ECAC668F44CEF85523CA91BF9CD89F4B48D7E786
 bank.			86400	IN	DS	24451 8 2 C3DC580DD252CBB5D452BD595666AE843BEDA342FFCD30C920E01D62AEE2796B
-bank.			86400	IN	DS	46041 8 2 B38A19166E8A6FDB02B4757B6455734191FD2928B48B1AA5312456DF05D9DB19
 a.nic.bank.		172800	IN	A	156.154.100.27
 a.nic.bank.		172800	IN	AAAA	2001:502:2eda:0:0:0:0:27
 b.nic.bank.		172800	IN	A	156.154.101.27
@@ -3319,6 +3318,14 @@ ns3.xn--cg4bki.centralnic-dns.com.	172800	IN	A	212.18.248.113
 ns3.xn--cg4bki.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:113
 ns4.xn--cg4bki.centralnic-dns.com.	172800	IN	A	212.18.249.113
 ns4.xn--cg4bki.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:113
+a.xn--q7ce6a.centralnic-dns.com.	172800	IN	A	194.169.218.17
+a.xn--q7ce6a.centralnic-dns.com.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:17
+b.xn--q7ce6a.centralnic-dns.com.	172800	IN	A	185.24.64.17
+b.xn--q7ce6a.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:17
+c.xn--q7ce6a.centralnic-dns.com.	172800	IN	A	212.18.248.17
+c.xn--q7ce6a.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:17
+d.xn--q7ce6a.centralnic-dns.com.	172800	IN	A	212.18.249.17
+d.xn--q7ce6a.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:17
 ns-tld1.charlestonroadregistry.com.	172800	IN	A	216.239.32.105
 ns-tld1.charlestonroadregistry.com.	172800	IN	AAAA	2001:4860:4802:32:0:0:0:69
 ns-tld2.charlestonroadregistry.com.	172800	IN	A	216.239.34.105
@@ -7080,7 +7087,6 @@ insurance.		172800	IN	NS	c.nic.insurance.
 insurance.		172800	IN	NS	d.nic.insurance.
 insurance.		172800	IN	NS	e.nic.insurance.
 insurance.		172800	IN	NS	f.nic.insurance.
-insurance.		86400	IN	DS	26106 8 2 6FA68E9C22C5591EBB6BAF0213849102AF30B71B65B51ED890639F8299AAD1D8
 insurance.		86400	IN	DS	48811 8 1 B575048BA3D8644F995DBE7AF524C6EAF5E0E40F
 insurance.		86400	IN	DS	48811 8 2 C6677658BFC5B11FEC39E0D7F7266091FC7979EAAE5AA6C51673B1A53BCED3FA
 a.nic.insurance.	172800	IN	A	156.154.100.22
@@ -16881,6 +16887,18 @@ xn--mgbca7dzdo.		172800	IN	NS	gtld.delta.aridns.net.au.
 xn--mgbca7dzdo.		172800	IN	NS	gtld.gamma.aridns.net.au.
 xn--mgbca7dzdo.		86400	IN	DS	1909 8 1 D5A6F96664AE0D000A01B196C4348E7E231D95F8
 xn--mgbca7dzdo.		86400	IN	DS	1909 8 2 F62B4E977CBA32CEF37856A9F919CE405EB998F04D4ABB309F1F9B86C105CA72
+xn--mgbcpq6gpa1a.	172800	IN	NS	a.nic.xn--mgbcpq6gpa1a.
+xn--mgbcpq6gpa1a.	172800	IN	NS	b.nic.xn--mgbcpq6gpa1a.
+xn--mgbcpq6gpa1a.	172800	IN	NS	c.nic.xn--mgbcpq6gpa1a.
+xn--mgbcpq6gpa1a.	172800	IN	NS	d.nic.xn--mgbcpq6gpa1a.
+a.nic.xn--mgbcpq6gpa1a.	172800	IN	A	194.169.218.115
+a.nic.xn--mgbcpq6gpa1a.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:115
+b.nic.xn--mgbcpq6gpa1a.	172800	IN	A	185.24.64.115
+b.nic.xn--mgbcpq6gpa1a.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:115
+c.nic.xn--mgbcpq6gpa1a.	172800	IN	A	212.18.248.115
+c.nic.xn--mgbcpq6gpa1a.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:115
+d.nic.xn--mgbcpq6gpa1a.	172800	IN	A	212.18.249.115
+d.nic.xn--mgbcpq6gpa1a.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:115
 xn--mgberp4a5d4ar.	172800	IN	NS	n.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	p.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	s.nic.net.sa.
@@ -17103,6 +17121,11 @@ xn--pssy2u.		172800	IN	NS	ac2.nstld.com.
 xn--pssy2u.		172800	IN	NS	ac3.nstld.com.
 xn--pssy2u.		172800	IN	NS	ac4.nstld.com.
 xn--pssy2u.		86400	IN	DS	39624 8 2 C8ACA8ACBFAF0BBABF83AD3A480DF9E961364D1BF326C953F1CF9597E844C95B
+xn--q7ce6a.		172800	IN	NS	a.xn--q7ce6a.centralnic-dns.com.
+xn--q7ce6a.		172800	IN	NS	b.xn--q7ce6a.centralnic-dns.com.
+xn--q7ce6a.		172800	IN	NS	c.xn--q7ce6a.centralnic-dns.com.
+xn--q7ce6a.		172800	IN	NS	d.xn--q7ce6a.centralnic-dns.com.
+xn--q7ce6a.		86400	IN	DS	10705 7 2 0ABE3FC3E0D788CC7EDA69271C7ACB9ED5D23460D381B86253B44C57716A89E9
 xn--q9jyb4c.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 xn--q9jyb4c.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 xn--q9jyb4c.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
