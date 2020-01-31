@@ -7708,7 +7708,6 @@ dns1.online.com.kh.	172800	IN	A	203.189.128.1
 ns1.dns.net.kh.		172800	IN	A	203.223.32.21
 ki.			172800	IN	NS	ns.cocca.fr.
 ki.			172800	IN	NS	pch.nic.ki.
-ki.			172800	IN	NS	sns-pb.isc.org.
 ki.			86400	IN	DS	59540 8 2 FD3B27E5C171B883FE2815DDE7FBBE7F2E5AF826BFF47C33B5970F53E2A855DE
 pch.nic.ki.		172800	IN	A	204.61.216.26
 pch.nic.ki.		172800	IN	AAAA	2001:500:14:6026:ad:0:0:1
@@ -11146,7 +11145,6 @@ ph.			172800	IN	NS	1.ns.ph.
 ph.			172800	IN	NS	ph.communitydns.net.
 ph.			172800	IN	NS	ns2.cuhk.edu.hk.
 ph.			172800	IN	NS	ns4.apnic.net.
-ph.			172800	IN	NS	sns-pb.isc.org.
 1.ns.ph.		172800	IN	A	206.51.255.1
 1.ns.ph.		172800	IN	AAAA	2620:171:805:ad2:7068:0:0:1
 pharmacy.		172800	IN	NS	ns1.dns.nic.pharmacy.
