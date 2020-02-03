@@ -14814,7 +14814,6 @@ tz.			172800	IN	NS	ns2.tznic.or.tz.
 tz.			172800	IN	NS	rip.psg.com.
 tz.			172800	IN	NS	fork.sth.dnsnode.net.
 tz.			172800	IN	NS	ns-tz.afrinic.net.
-tz.			172800	IN	NS	sns-pb.isc.org.
 tz.			86400	IN	DS	35251 10 2 C248AF42D75CA88355736FE3E5209E844EFDD6909A1B282FBFA0F7048C37A913
 ns.anycast.co.tz.	172800	IN	A	204.61.216.15
 ns.anycast.co.tz.	172800	IN	AAAA	2001:500:14:6015:ad:0:0:1
