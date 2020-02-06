@@ -12422,13 +12422,13 @@ ryukyu.			172800	IN	NS	b.gmoregistry.net.
 ryukyu.			172800	IN	NS	k.gmoregistry.net.
 ryukyu.			172800	IN	NS	l.gmoregistry.net.
 ryukyu.			86400	IN	DS	52505 8 2 A19F9645F1832C3A1550F695DBA8F68E26DAA32BE47967F71B29A4A865D834B8
-sa.			172800	IN	NS	n.nic.net.sa.
-sa.			172800	IN	NS	p.nic.net.sa.
-sa.			172800	IN	NS	s.nic.net.sa.
+sa.			172800	IN	NS	c1.dns.sa.
+sa.			172800	IN	NS	c2.dns.sa.
 sa.			172800	IN	NS	i1.dns.sa.
-sa.			172800	IN	NS	s2.nic.net.sa.
-sa.			172800	IN	NS	ns1.nic.net.sa.
-sa.			172800	IN	NS	ns2.nic.net.sa.
+sa.			172800	IN	NS	n1.dns.sa.
+sa.			172800	IN	NS	p1.dns.sa.
+sa.			172800	IN	NS	s1.dns.sa.
+sa.			172800	IN	NS	s2.dns.sa.
 sa.			86400	IN	DS	30574 8 2 02FC3370C8453439627440B913A8C0A6A4698F9E503F6BBB553D75D77E34367E
 c1.dns.sa.		172800	IN	A	86.111.192.9
 c1.dns.sa.		172800	IN	AAAA	2001:67c:130:410:0:0:0:9
@@ -12444,18 +12444,6 @@ s1.dns.sa.		172800	IN	A	37.107.223.170
 s1.dns.sa.		172800	IN	AAAA	2001:16a0:1:3002:0:0:0:2
 s2.dns.sa.		172800	IN	A	37.107.255.170
 s2.dns.sa.		172800	IN	AAAA	2001:16a0:2:3002:0:0:0:2
-n.nic.net.sa.		172800	IN	A	194.146.106.102
-n.nic.net.sa.		172800	IN	AAAA	2001:67c:1010:26:0:0:0:53
-ns1.nic.net.sa.		172800	IN	A	86.111.192.9
-ns1.nic.net.sa.		172800	IN	AAAA	2001:67c:130:410:0:0:0:9
-ns2.nic.net.sa.		172800	IN	A	86.111.196.9
-ns2.nic.net.sa.		172800	IN	AAAA	2001:67c:130:10:0:0:0:9
-p.nic.net.sa.		172800	IN	A	204.61.216.41
-p.nic.net.sa.		172800	IN	AAAA	2001:500:14:6041:ad:0:0:1
-s.nic.net.sa.		172800	IN	A	37.107.223.170
-s.nic.net.sa.		172800	IN	AAAA	2001:16a0:1:3002:0:0:0:2
-s2.nic.net.sa.		172800	IN	A	37.107.255.170
-s2.nic.net.sa.		172800	IN	AAAA	2001:16a0:2:3002:0:0:0:2
 saarland.		172800	IN	NS	a.nic.saarland.
 saarland.		172800	IN	NS	b.nic.saarland.
 saarland.		172800	IN	NS	c.nic.saarland.
