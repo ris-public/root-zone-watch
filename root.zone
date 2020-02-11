@@ -6099,7 +6099,10 @@ ns.anycast.nic.gs.	172800	IN	AAAA	2001:500:14:6021:ad:0:0:1
 gt.			172800	IN	NS	a.lactld.org.
 gt.			172800	IN	NS	ns.dns.br.
 gt.			172800	IN	NS	pch.gt.
+gt.			172800	IN	NS	ns-cz.gt.
 gt.			172800	IN	NS	ssdns-tld.nic.cl.
+ns-cz.gt.		172800	IN	A	193.29.206.2
+ns-cz.gt.		172800	IN	AAAA	2001:678:1:0:0:0:0:2
 pch.gt.			172800	IN	A	204.61.216.95
 pch.gt.			172800	IN	AAAA	2001:500:14:6095:ad:0:0:1
 gu.			172800	IN	NS	gu.cctld.authdns.ripe.net.
