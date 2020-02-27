@@ -3811,6 +3811,8 @@ cz.			172800	IN	NS	d.ns.nic.cz.
 cz.			86400	IN	DS	20237 13 2 CFF0F3ECDBC529C1F0031BA1840BFB835853B9209ED1E508FFF48451D7B778E2
 kenic.anycastdns.cz.	172800	IN	A	185.28.194.194
 kenic.anycastdns.cz.	172800	IN	A	185.38.108.108
+na.anycastdns.cz.	172800	IN	A	185.28.194.194
+na.anycastdns.cz.	172800	IN	A	185.38.108.108
 ssnic.anycastdns.cz.	172800	IN	A	185.28.194.194
 ssnic.anycastdns.cz.	172800	IN	A	185.38.108.108
 d.ext.nic.cz.		172800	IN	A	193.29.206.2
@@ -9595,13 +9597,12 @@ anyns.uem.mz.		172800	IN	A	204.61.216.14
 dzowo.uem.mz.		172800	IN	A	196.3.96.66
 oceano.uem.mz.		172800	IN	A	196.3.96.69
 zebra.uem.mz.		172800	IN	A	196.3.96.67
-na.			172800	IN	NS	sdc.omadhina.co.na.
+na.			172800	IN	NS	na.anycastdns.cz.
 na.			172800	IN	NS	anyc2.irondns.net.
 na.			172800	IN	NS	na-ns.anycast.pch.net.
-na.			172800	IN	NS	katima.omadhina.net.
+na.			172800	IN	NS	etld-1.anycast.net.
 na.			86400	IN	DS	24484 5 1 EFC19D4685751FF8E11F96142A083DCB9C708912
 na.			86400	IN	DS	25076 5 1 E3273B3172968F416BCEADF4620A18C85ABB6DC5
-sdc.omadhina.co.na.	172800	IN	A	200.25.20.98
 nab.			172800	IN	NS	ac1.nstld.com.
 nab.			172800	IN	NS	ac2.nstld.com.
 nab.			172800	IN	NS	ac3.nstld.com.
@@ -9754,6 +9755,8 @@ ns-cdn.amnic.net.	172800	IN	A	194.0.1.26
 ns-cdn.amnic.net.	172800	IN	AAAA	2001:678:4:0:0:0:0:1a
 ns-pch.amnic.net.	172800	IN	A	204.61.216.96
 ns-pch.amnic.net.	172800	IN	AAAA	2001:500:14:6096:ad:0:0:1
+etld-1.anycast.net.	172800	IN	A	45.54.45.54
+etld-1.anycast.net.	172800	IN	AAAA	2607:f740:45:0:0:0:0:54
 anytld.apnic.net.	172800	IN	A	202.12.31.53
 anytld.apnic.net.	172800	IN	AAAA	2001:dd8:12:0:0:0:0:53
 ns4.apnic.net.		172800	IN	A	202.12.31.53
@@ -9925,7 +9928,6 @@ ns1-mq.mediaserv.net.	172800	IN	A	213.16.20.3
 server.nordu.net.	172800	IN	A	193.10.252.19
 server.nordu.net.	172800	IN	AAAA	2001:948:4:2:0:0:0:19
 ns.ntamar.net.		172800	IN	A	117.103.88.33
-katima.omadhina.net.	172800	IN	A	185.2.66.100
 vps443605.ovh.net.	172800	IN	A	37.59.106.21
 bd-ns.anycast.pch.net.	172800	IN	A	204.61.216.108
 bd-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6108:ad:0:0:1
@@ -13170,7 +13172,7 @@ si.			172800	IN	NS	g.dns.si.
 si.			172800	IN	NS	h.dns.si.
 si.			172800	IN	NS	i.dns.si.
 si.			172800	IN	NS	j.dns.si.
-si.			86400	IN	DS	2174 8 2 8134257F1CF791876D8060A372EF082E6C2E57D6A59093B81D3EFB42DCF81F7F
+si.			86400	IN	DS	39337 8 2 A9F4A1BCCA3714BE2B2BD010BE54C37E9B8FB25C73418A1CEB8283A229E67B6A
 ns2.arnes.si.		172800	IN	A	194.249.4.44
 ns2.arnes.si.		172800	IN	AAAA	2001:1470:8000:53:0:0:0:44
 b.dns.si.		172800	IN	A	194.249.4.44
