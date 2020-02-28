@@ -13536,11 +13536,11 @@ b0.nic.srl.		172800	IN	AAAA	2a01:8840:4f:0:0:0:0:33
 c0.nic.srl.		172800	IN	A	65.22.82.33
 c0.nic.srl.		172800	IN	AAAA	2a01:8840:50:0:0:0:0:33
 ss.			172800	IN	NS	b.ns.tznic.or.tz.
-ss.			172800	IN	NS	root.ssnic.gov.ss.
+ss.			172800	IN	NS	root.nic.ss.
 ss.			172800	IN	NS	ssnic.anycastdns.cz.
 ss.			86400	IN	DS	43817 8 1 65FB691DA6EB488ED99195E7609837F787EAFC4A
 ss.			86400	IN	DS	43817 8 2 F85D36A2E056FF8CBB8DC79C748E4EC1E862C4F739891F9595669AA3384A252D
-root.ssnic.gov.ss.	172800	IN	A	196.1.4.230
+root.nic.ss.		172800	IN	A	196.1.4.230
 st.			172800	IN	NS	ns1.bahnhof.net.
 st.			172800	IN	NS	dns-au.st.
 st.			172800	IN	NS	dns-st.bahnhof.net.
