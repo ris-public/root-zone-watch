@@ -9601,7 +9601,6 @@ na.			172800	IN	NS	na.anycastdns.cz.
 na.			172800	IN	NS	anyc2.irondns.net.
 na.			172800	IN	NS	na-ns.anycast.pch.net.
 na.			172800	IN	NS	etld-1.anycast.net.
-na.			86400	IN	DS	24484 5 1 EFC19D4685751FF8E11F96142A083DCB9C708912
 na.			86400	IN	DS	25076 5 1 E3273B3172968F416BCEADF4620A18C85ABB6DC5
 nab.			172800	IN	NS	ac1.nstld.com.
 nab.			172800	IN	NS	ac2.nstld.com.
