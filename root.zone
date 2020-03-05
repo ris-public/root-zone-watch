@@ -4209,6 +4209,7 @@ bow5.intnet.dj.		172800	IN	A	196.201.196.41
 dk.			172800	IN	NS	a.nic.dk.
 dk.			172800	IN	NS	b.nic.dk.
 dk.			172800	IN	NS	c.nic.dk.
+dk.			172800	IN	NS	d.nic.dk.
 dk.			172800	IN	NS	l.nic.dk.
 dk.			172800	IN	NS	p.nic.dk.
 dk.			172800	IN	NS	s.nic.dk.
@@ -4219,6 +4220,8 @@ b.nic.dk.		172800	IN	A	193.163.102.222
 b.nic.dk.		172800	IN	AAAA	2a01:630:0:80:0:0:0:53
 c.nic.dk.		172800	IN	A	194.0.46.53
 c.nic.dk.		172800	IN	AAAA	2001:678:74:0:0:0:0:53
+d.nic.dk.		172800	IN	A	185.159.198.45
+d.nic.dk.		172800	IN	AAAA	2620:10a:80ab:0:0:0:0:45
 l.nic.dk.		172800	IN	A	192.38.7.242
 l.nic.dk.		172800	IN	AAAA	2001:7f8:1f:0:0:1835:242:0
 p.nic.dk.		172800	IN	A	194.0.47.42
