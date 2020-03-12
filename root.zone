@@ -2777,7 +2777,6 @@ cg.			172800	IN	NS	dns-za.dnsafrica.net.
 ch.			172800	IN	NS	a.nic.ch.
 ch.			172800	IN	NS	b.nic.ch.
 ch.			172800	IN	NS	c.nic.ch.
-ch.			172800	IN	NS	d.nic.ch.
 ch.			172800	IN	NS	e.nic.ch.
 ch.			172800	IN	NS	f.nic.ch.
 ch.			172800	IN	NS	g.nic.ch.
@@ -2791,12 +2790,11 @@ b.nic.ch.		172800	IN	A	130.59.31.43
 b.nic.ch.		172800	IN	AAAA	2001:620:0:ff:0:0:0:58
 c.nic.ch.		172800	IN	A	147.28.0.39
 c.nic.ch.		172800	IN	AAAA	2001:418:1:0:0:0:0:39
-d.nic.ch.		172800	IN	A	200.160.0.5
-d.nic.ch.		172800	IN	AAAA	2001:12ff:0:a20:0:0:0:5
 e.nic.ch.		172800	IN	A	194.0.17.1
 e.nic.ch.		172800	IN	AAAA	2001:678:3:0:0:0:0:1
 f.nic.ch.		172800	IN	A	194.146.106.10
 f.nic.ch.		172800	IN	AAAA	2001:67c:1010:2:0:0:0:53
+g.nic.ch.		172800	IN	A	74.116.178.40
 g.nic.ch.		172800	IN	A	194.0.1.40
 g.nic.ch.		172800	IN	AAAA	2001:678:4:0:0:0:0:28
 h.nic.ch.		172800	IN	A	85.119.5.230
@@ -3616,6 +3614,7 @@ cr.			172800	IN	NS	ca1.nic.cr.
 cr.			172800	IN	NS	ca2.nic.cr.
 cr.			172800	IN	NS	ns3.nic.mx.
 cr.			172800	IN	NS	ns-ext.nic.cl.
+cr.			86400	IN	DS	19676 13 2 6BBBB8C68D4EFF1BC8BB8782FAC82747915E745222CAFDD4D20CAF55FC86D0CE
 cr.			86400	IN	DS	41186 8 2 5B49B4D158051E05927C5096668A0193D669A797E1D3EEF6CC50C521B949CA96
 ca1.nic.cr.		172800	IN	A	185.159.197.100
 ca1.nic.cr.		172800	IN	AAAA	2620:10a:80aa:0:0:0:0:100
@@ -8205,7 +8204,6 @@ c0.nic.lgbt.		172800	IN	AAAA	2a01:8840:24:0:0:0:0:1
 li.			172800	IN	NS	a.nic.li.
 li.			172800	IN	NS	b.nic.li.
 li.			172800	IN	NS	c.nic.li.
-li.			172800	IN	NS	d.nic.li.
 li.			172800	IN	NS	e.nic.li.
 li.			172800	IN	NS	f.nic.li.
 li.			172800	IN	NS	g.nic.li.
@@ -8217,12 +8215,11 @@ b.nic.li.		172800	IN	A	130.59.31.44
 b.nic.li.		172800	IN	AAAA	2001:620:0:ff:0:0:0:59
 c.nic.li.		172800	IN	A	147.28.0.39
 c.nic.li.		172800	IN	AAAA	2001:418:1:0:0:0:0:39
-d.nic.li.		172800	IN	A	200.160.0.5
-d.nic.li.		172800	IN	AAAA	2001:12ff:0:a20:0:0:0:5
 e.nic.li.		172800	IN	A	194.0.17.1
 e.nic.li.		172800	IN	AAAA	2001:678:3:0:0:0:0:1
 f.nic.li.		172800	IN	A	194.146.106.14
 f.nic.li.		172800	IN	AAAA	2001:67c:1010:3:0:0:0:53
+g.nic.li.		172800	IN	A	74.116.178.40
 g.nic.li.		172800	IN	A	194.0.1.40
 g.nic.li.		172800	IN	AAAA	2001:678:4:0:0:0:0:28
 h.nic.li.		172800	IN	A	85.119.5.230
@@ -13757,7 +13754,7 @@ su.			172800	IN	NS	b.dns.ripn.net.
 su.			172800	IN	NS	d.dns.ripn.net.
 su.			172800	IN	NS	e.dns.ripn.net.
 su.			172800	IN	NS	f.dns.ripn.net.
-su.			86400	IN	DS	57857 8 2 0754F6F81EDABC9B710C837BCD2B8CE61FA2B44E9EEFEA71FC2A0E6D6F16B43D
+su.			86400	IN	DS	58831 8 2 0995806B7CB30C12D620F549AE54E2159626A7A22130CCDE1C12A5E02410A518
 sucks.			172800	IN	NS	a.nic.sucks.
 sucks.			172800	IN	NS	b.nic.sucks.
 sucks.			172800	IN	NS	c.nic.sucks.
