@@ -3252,6 +3252,7 @@ c.nic.college.		172800	IN	A	212.18.248.44
 c.nic.college.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:44
 d.nic.college.		172800	IN	A	212.18.249.44
 d.nic.college.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:44
+cologne.		172800	IN	NS	dns.ryce-rsp.com.
 cologne.		172800	IN	NS	ns1.ryce-rsp.com.
 cologne.		172800	IN	NS	nsa.netnod.se.
 cologne.		172800	IN	NS	nsp.netnod.se.
@@ -7795,6 +7796,7 @@ kn.			172800	IN	NS	ns.coccaregistry.org.
 kn.			172800	IN	NS	pch.nic.kn.
 pch.nic.kn.		172800	IN	A	204.61.216.109
 pch.nic.kn.		172800	IN	AAAA	2001:500:14:6109:ad:0:0:1
+koeln.			172800	IN	NS	dns.ryce-rsp.com.
 koeln.			172800	IN	NS	ns1.ryce-rsp.com.
 koeln.			172800	IN	NS	nsa.netnod.se.
 koeln.			172800	IN	NS	nsp.netnod.se.
