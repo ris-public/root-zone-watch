@@ -9464,7 +9464,6 @@ mr.			172800	IN	NS	ns2.nic.mr.
 mr.			172800	IN	NS	ns-mr.nic.fr.
 mr.			172800	IN	NS	ns-mr.nic.tn.
 mr.			172800	IN	NS	ns-mr.afrinic.net.
-mr.			172800	IN	NS	censvrns0001.ird.fr.
 ns1.nic.mr.		172800	IN	A	41.188.65.193
 ns2.nic.mr.		172800	IN	A	82.151.64.2
 ms.			172800	IN	NS	ns.cocca.fr.
