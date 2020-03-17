@@ -14308,6 +14308,7 @@ tires.			172800	IN	NS	demand.delta.aridns.net.au.
 tires.			172800	IN	NS	demand.gamma.aridns.net.au.
 tires.			86400	IN	DS	60784 8 1 29EDE96C9705EC94C76BFF4908B0F1F810975575
 tires.			86400	IN	DS	60784 8 2 CB7861C227C109F2F3C8F2C5E8DBF8965B7ACD32F37B7B2C3FDC752A1B241FDC
+tirol.			172800	IN	NS	dns.ryce-rsp.com.
 tirol.			172800	IN	NS	ns1.ryce-rsp.com.
 tirol.			172800	IN	NS	nsa.netnod.se.
 tirol.			172800	IN	NS	nsp.netnod.se.
