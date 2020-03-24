@@ -9545,6 +9545,7 @@ mv.			172800	IN	NS	ns2.dhivehinet.net.mv.
 mv.			172800	IN	NS	mv-ns.anycast.pch.net.
 ns.dhivehinet.net.mv.	172800	IN	A	202.1.192.196
 ns2.dhivehinet.net.mv.	172800	IN	A	202.1.201.201
+mw.			172800	IN	NS	d.ext.nic.cz.
 mw.			172800	IN	NS	mw.cctld.authdns.ripe.net.
 mw.			172800	IN	NS	ns4.apnic.net.
 mw.			172800	IN	NS	rip.psg.com.
