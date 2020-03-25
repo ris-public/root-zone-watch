@@ -6804,7 +6804,6 @@ ie.			172800	IN	NS	a.ns.ie.
 ie.			172800	IN	NS	b.ns.ie.
 ie.			172800	IN	NS	c.ns.ie.
 ie.			172800	IN	NS	d.ns.ie.
-ie.			172800	IN	NS	f.ns.ie.
 ie.			172800	IN	NS	g.ns.ie.
 ie.			172800	IN	NS	h.ns.ie.
 ie.			172800	IN	NS	i.ns.ie.
@@ -6817,8 +6816,6 @@ c.ns.ie.		172800	IN	A	194.146.106.98
 c.ns.ie.		172800	IN	AAAA	2001:67c:1010:25:0:0:0:53
 d.ns.ie.		172800	IN	A	77.72.229.245
 d.ns.ie.		172800	IN	AAAA	2a01:3f0:0:309:0:0:0:53
-f.ns.ie.		172800	IN	A	199.19.3.1
-f.ns.ie.		172800	IN	AAAA	2001:500:95:0:0:0:0:1
 g.ns.ie.		172800	IN	A	192.111.39.100
 g.ns.ie.		172800	IN	AAAA	2001:7c8:2:a:0:0:0:64
 h.ns.ie.		172800	IN	A	192.93.0.4
