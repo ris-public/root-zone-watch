@@ -7791,10 +7791,8 @@ kn.			172800	IN	NS	pch.nic.kn.
 pch.nic.kn.		172800	IN	A	204.61.216.109
 pch.nic.kn.		172800	IN	AAAA	2001:500:14:6109:ad:0:0:1
 koeln.			172800	IN	NS	dns.ryce-rsp.com.
+koeln.			172800	IN	NS	ns1.dns.business.
 koeln.			172800	IN	NS	ns1.ryce-rsp.com.
-koeln.			172800	IN	NS	nsa.netnod.se.
-koeln.			172800	IN	NS	nsp.netnod.se.
-koeln.			172800	IN	NS	nsu.netnod.se.
 koeln.			86400	IN	DS	48568 10 2 0D64B2D9B1A06897BB24383F1200BCA0E4F4307AA18A9DFAAC28163111F95B44
 komatsu.		172800	IN	NS	a.gmoregistry.net.
 komatsu.		172800	IN	NS	b.gmoregistry.net.
@@ -12835,12 +12833,6 @@ se.			172800	IN	NS	x.ns.se.
 se.			172800	IN	NS	y.ns.se.
 se.			172800	IN	NS	z.ns.se.
 se.			86400	IN	DS	59407 8 2 67A8E06FCEFDD9397F77F26C41ADE4EC142F299BCFA1827F0EF8FD87F2F63022
-nsa.netnod.se.		172800	IN	A	194.58.192.33
-nsa.netnod.se.		172800	IN	AAAA	2a01:3f1:33:0:0:0:0:53
-nsp.netnod.se.		172800	IN	A	194.58.198.33
-nsp.netnod.se.		172800	IN	AAAA	2a01:3f1:3033:0:0:0:0:53
-nsu.netnod.se.		172800	IN	A	185.42.137.99
-nsu.netnod.se.		172800	IN	AAAA	2a01:3f0:400:0:0:0:0:33
 a.ns.se.		172800	IN	A	192.36.144.107
 a.ns.se.		172800	IN	AAAA	2a01:3f0:0:301:0:0:0:53
 b.ns.se.		172800	IN	A	192.36.133.107
@@ -14304,10 +14296,8 @@ tires.			172800	IN	NS	demand.gamma.aridns.net.au.
 tires.			86400	IN	DS	60784 8 1 29EDE96C9705EC94C76BFF4908B0F1F810975575
 tires.			86400	IN	DS	60784 8 2 CB7861C227C109F2F3C8F2C5E8DBF8965B7ACD32F37B7B2C3FDC752A1B241FDC
 tirol.			172800	IN	NS	dns.ryce-rsp.com.
+tirol.			172800	IN	NS	ns1.dns.business.
 tirol.			172800	IN	NS	ns1.ryce-rsp.com.
-tirol.			172800	IN	NS	nsa.netnod.se.
-tirol.			172800	IN	NS	nsp.netnod.se.
-tirol.			172800	IN	NS	nsu.netnod.se.
 tirol.			86400	IN	DS	49289 8 2 79FE828514049FE47CF888BD5BCC827503356C085951AAF089894C61C28F7496
 tj.			172800	IN	NS	tj.cctld.authdns.ripe.net.
 tj.			172800	IN	NS	ns1.nic.tj.
@@ -15641,10 +15631,8 @@ whoswho.		172800	IN	NS	anycast23.irondns.net.
 whoswho.		172800	IN	NS	anycast24.irondns.net.
 whoswho.		86400	IN	DS	1094 8 2 B35D9BCF8C51A71118E63F2D38A06E25418DB690DBABFB35F0CF9635959B5E5B
 wien.			172800	IN	NS	dns.ryce-rsp.com.
+wien.			172800	IN	NS	ns1.dns.business.
 wien.			172800	IN	NS	ns1.ryce-rsp.com.
-wien.			172800	IN	NS	nsa.netnod.se.
-wien.			172800	IN	NS	nsp.netnod.se.
-wien.			172800	IN	NS	nsu.netnod.se.
 wien.			86400	IN	DS	57889 8 2 E2AA9BA196C7D4F10A8320A710FC24AD4BC86CE362239C307AF3B875D5CF44C7
 wiki.			172800	IN	NS	a.nic.wiki.
 wiki.			172800	IN	NS	b.nic.wiki.
