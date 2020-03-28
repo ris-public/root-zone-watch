@@ -10946,8 +10946,7 @@ pa.			172800	IN	NS	ns.dns.br.
 pa.			172800	IN	NS	ns.nic.pa.
 pa.			172800	IN	NS	dns.nic.cr.
 pa.			172800	IN	NS	ns2.pa.
-pa.			172800	IN	NS	ns-ext.nic.cl.
-pa.			172800	IN	NS	sns-pb.isc.org.
+pa.			172800	IN	NS	ssdns-tld.nic.cl.
 ns.nic.pa.		172800	IN	A	168.77.8.4
 ns.pa.			172800	IN	A	168.77.8.2
 ns2.pa.			172800	IN	A	168.77.8.7
