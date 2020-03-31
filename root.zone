@@ -16815,6 +16815,7 @@ xn--mgbah1a3hjkrd.	172800	IN	NS	ns1.nic.mr.
 xn--mgbah1a3hjkrd.	172800	IN	NS	ns2.nic.mr.
 xn--mgbah1a3hjkrd.	172800	IN	NS	ns-mr.nic.fr.
 xn--mgbah1a3hjkrd.	172800	IN	NS	ns-mr.afrinic.net.
+xn--mgbah1a3hjkrd.	86400	IN	DS	19030 8 2 9C1324BBE5B1726510CA3EA47E2D42F7E6C6A09BAF424AC344F32DE5488AE5A9
 xn--mgbai9azgqp6j.	172800	IN	NS	ns.ntc.net.pk.
 xn--mgbai9azgqp6j.	172800	IN	NS	ns1.ntc.net.pk.
 xn--mgbai9azgqp6j.	172800	IN	NS	ns2.ntc.net.pk.
