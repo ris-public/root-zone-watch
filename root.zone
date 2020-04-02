@@ -2332,7 +2332,6 @@ by.			172800	IN	NS	dns2.tld.tutby.com.
 by.			172800	IN	NS	dns3.tld.tutby.com.
 by.			172800	IN	NS	dns4.tld.tutby.com.
 by.			172800	IN	NS	dns5.tld.tutby.com.
-by.			172800	IN	NS	dns7.tld.tutby.com.
 by.			86400	IN	DS	43875 7 1 B5667014733F0FD07D096B2FA2AD175186ADF48C
 by.			86400	IN	DS	43875 7 2 27A33067E54A8C4CEE091DB22156EF02A79A76CCC1E48D6D195DFEF6D520C48E
 bz.			172800	IN	NS	a0.cctld.afilias-nst.info.
@@ -3442,8 +3441,6 @@ dns4.tld.tutby.com.	172800	IN	A	62.212.73.101
 dns4.tld.tutby.com.	172800	IN	AAAA	2001:1af8:4010:a049:1:0:0:0
 dns5.tld.tutby.com.	172800	IN	A	46.165.217.94
 dns5.tld.tutby.com.	172800	IN	AAAA	2a00:c98:2200:a012:1:0:0:0
-dns7.tld.tutby.com.	172800	IN	A	128.199.68.43
-dns7.tld.tutby.com.	172800	IN	AAAA	2400:6180:0:d0:0:0:3d:b001
 dns1.u-registry.com.	172800	IN	A	173.208.218.43
 dns1.u-registry.com.	172800	IN	AAAA	2604:4300:a:8c:5054:ff:fe47:8582
 a.zdnscloud.com.	172800	IN	A	203.99.24.1
@@ -9771,6 +9768,7 @@ mr.			172800	IN	NS	ns2.nic.mr.
 mr.			172800	IN	NS	ns-mr.nic.fr.
 mr.			172800	IN	NS	ns-mr.nic.tn.
 mr.			172800	IN	NS	ns-mr.afrinic.net.
+mr.			86400	IN	DS	24775 8 2 949E0AAF97F494ED93976A84DCB1B2654A8C35E6208009C50D54A9AD8FE88FA3
 ns1.nic.mr.		172800	IN	A	41.188.65.193
 ns2.nic.mr.		172800	IN	A	82.151.64.2
 ms.			172800	IN	NS	ns.cocca.fr.
@@ -16647,7 +16645,6 @@ xn--90ais.		172800	IN	NS	dns2.tld.tutby.com.
 xn--90ais.		172800	IN	NS	dns3.tld.tutby.com.
 xn--90ais.		172800	IN	NS	dns4.tld.tutby.com.
 xn--90ais.		172800	IN	NS	dns5.tld.tutby.com.
-xn--90ais.		172800	IN	NS	dns7.tld.tutby.com.
 xn--9dbq2a.		172800	IN	NS	ac1.nstld.com.
 xn--9dbq2a.		172800	IN	NS	ac2.nstld.com.
 xn--9dbq2a.		172800	IN	NS	ac3.nstld.com.
