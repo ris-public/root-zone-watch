@@ -11749,7 +11749,6 @@ pm.			172800	IN	NS	e.ext.nic.fr.
 pm.			172800	IN	NS	f.ext.nic.fr.
 pm.			172800	IN	NS	g.ext.nic.fr.
 pm.			86400	IN	DS	1762 13 2 48BF667A04B42E414914A25649E964B5740ED5E0C9F767A23B268D473F00AFB6
-pm.			86400	IN	DS	56192 8 2 B49959AB8FFF95A45BF5F7130AB1A64C7EF1CEFB6F50CA1BE003281503325F67
 pn.			172800	IN	NS	ns0.pitcairn.net.pn.
 pn.			172800	IN	NS	ns1.pitcairn.net.pn.
 pn.			172800	IN	NS	ns2.pitcairn.net.pn.
@@ -14884,16 +14883,20 @@ ns2.ati.tn.		172800	IN	AAAA	2c0f:fab0:ffff:5:41:228:63:62
 pch.ati.tn.		172800	IN	A	204.61.216.94
 pch.ati.tn.		172800	IN	AAAA	2001:500:14:6004:ad:0:0:1
 ns-mr.nic.tn.		172800	IN	A	41.228.63.70
-to.			172800	IN	NS	colo.to.
+to.			172800	IN	NS	colo.tonic.to.
 to.			172800	IN	NS	tonic.to.
+to.			172800	IN	NS	sydney.tonic.to.
 to.			172800	IN	NS	newyork.tonic.to.
+to.			172800	IN	NS	helsinki.tonic.to.
 to.			172800	IN	NS	frankfurt.tonic.to.
 to.			172800	IN	NS	singapore.tonic.to.
-colo.to.		172800	IN	A	216.74.32.104
-tonic.to.		172800	IN	A	216.74.32.100
+tonic.to.		172800	IN	A	144.202.111.210
+colo.tonic.to.		172800	IN	A	216.74.32.101
 frankfurt.tonic.to.	172800	IN	A	46.101.233.168
+helsinki.tonic.to.	172800	IN	A	95.216.159.42
 newyork.tonic.to.	172800	IN	A	162.243.211.202
 singapore.tonic.to.	172800	IN	A	188.166.187.0
+sydney.tonic.to.	172800	IN	A	104.156.232.193
 today.			172800	IN	NS	demand.beta.aridns.net.au.
 today.			172800	IN	NS	demand.alpha.aridns.net.au.
 today.			172800	IN	NS	demand.delta.aridns.net.au.
