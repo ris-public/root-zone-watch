@@ -9767,12 +9767,15 @@ mq.			172800	IN	NS	ns1-gp.mediaserv.net.
 mq.			172800	IN	NS	ns1-mq.mediaserv.net.
 mr.			172800	IN	NS	ns1.nic.mr.
 mr.			172800	IN	NS	ns2.nic.mr.
+mr.			172800	IN	NS	ns3.nic.mr.
 mr.			172800	IN	NS	ns-mr.nic.fr.
 mr.			172800	IN	NS	ns-mr.nic.tn.
 mr.			172800	IN	NS	ns-mr.afrinic.net.
 mr.			86400	IN	DS	24775 8 2 949E0AAF97F494ED93976A84DCB1B2654A8C35E6208009C50D54A9AD8FE88FA3
 ns1.nic.mr.		172800	IN	A	41.188.65.193
 ns2.nic.mr.		172800	IN	A	82.151.64.2
+ns3.nic.mr.		172800	IN	A	204.61.216.135
+ns3.nic.mr.		172800	IN	AAAA	2001:500:14:6135:ad:0:0:1
 ms.			172800	IN	NS	ns.cocca.fr.
 ms.			172800	IN	NS	ms-ns.anycast.pch.net.
 msd.			172800	IN	NS	ac1.nstld.com.
