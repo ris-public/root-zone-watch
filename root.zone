@@ -5937,9 +5937,10 @@ george.			86400	IN	DS	24255 8 2 944D283DD22B4FEC947C88D9C8369C75852A9B74A3A88A74
 gf.			172800	IN	NS	ns1-gp.mediaserv.net.
 gf.			172800	IN	NS	ns1-mq.mediaserv.net.
 gg.			172800	IN	NS	c.ci-servers.org.
-gg.			172800	IN	NS	d.ci-servers.je.
 gg.			172800	IN	NS	e.ci-servers.gg.
+gg.			172800	IN	NS	f.ci-servers.je.
 gg.			172800	IN	NS	ns0.ja.net.
+gg.			172800	IN	NS	dns1.nominetdns.uk.
 gg.			172800	IN	NS	ns99.dns.net.nz.
 e.ci-servers.gg.	172800	IN	A	204.61.216.74
 e.ci-servers.gg.	172800	IN	AAAA	2001:500:14:6074:ad:0:0:1
@@ -7640,6 +7641,8 @@ je.			172800	IN	NS	e.ci-servers.gg.
 je.			172800	IN	NS	ns0.ja.net.
 je.			172800	IN	NS	ns99.dns.net.nz.
 d.ci-servers.je.	172800	IN	A	193.201.42.178
+f.ci-servers.je.	172800	IN	A	213.248.223.254
+f.ci-servers.je.	172800	IN	AAAA	2a01:618:407:0:0:0:0:254
 jeep.			172800	IN	NS	a0.nic.jeep.
 jeep.			172800	IN	NS	a2.nic.jeep.
 jeep.			172800	IN	NS	b0.nic.jeep.
@@ -17270,6 +17273,7 @@ xn--mgbab2bd.		172800	IN	NS	anycast24.irondns.net.
 xn--mgbab2bd.		86400	IN	DS	47778 10 2 0EC09A1126F31B2C64C4CF2302EC87B2F12375485347BD4BFCBE93DE7D33B7D2
 xn--mgbah1a3hjkrd.	172800	IN	NS	ns1.nic.mr.
 xn--mgbah1a3hjkrd.	172800	IN	NS	ns2.nic.mr.
+xn--mgbah1a3hjkrd.	172800	IN	NS	ns3.nic.mr.
 xn--mgbah1a3hjkrd.	172800	IN	NS	ns-mr.nic.fr.
 xn--mgbah1a3hjkrd.	172800	IN	NS	ns-mr.afrinic.net.
 xn--mgbah1a3hjkrd.	86400	IN	DS	19030 8 2 9C1324BBE5B1726510CA3EA47E2D42F7E6C6A09BAF424AC344F32DE5488AE5A9
