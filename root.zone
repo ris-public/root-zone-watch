@@ -3028,8 +3028,6 @@ a.nic.cl.		172800	IN	AAAA	2001:1398:121:0:190:124:27:10
 b.nic.cl.		172800	IN	A	200.7.4.7
 b.nic.cl.		172800	IN	AAAA	2001:1398:274:0:200:7:4:7
 c.nic.cl.		172800	IN	A	200.16.112.16
-ns-ext.nic.cl.		172800	IN	A	200.1.123.14
-ns-ext.nic.cl.		172800	IN	AAAA	2001:1398:1:0:200:1:123:14
 ssdns-tld.nic.cl.	172800	IN	A	200.7.5.14
 ssdns-tld.nic.cl.	172800	IN	AAAA	2001:1398:276:0:200:7:5:14
 claims.			172800	IN	NS	demand.beta.aridns.net.au.
@@ -3576,14 +3574,12 @@ c.nic.cpa.		172800	IN	A	37.209.196.9
 c.nic.cpa.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
 d.nic.cpa.		172800	IN	A	37.209.198.9
 d.nic.cpa.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:9
-cr.			172800	IN	NS	a.ns.cr.
 cr.			172800	IN	NS	a.lactld.org.
 cr.			172800	IN	NS	p.nic.cr.
 cr.			172800	IN	NS	de.nic.cr.
 cr.			172800	IN	NS	ca1.nic.cr.
 cr.			172800	IN	NS	ca2.nic.cr.
-cr.			172800	IN	NS	ns3.nic.mx.
-cr.			172800	IN	NS	ns-ext.nic.cl.
+cr.			172800	IN	NS	dns.nic.cr.
 cr.			86400	IN	DS	51625 13 2 0875146DC7527D36AED8721B0516D1990E45086759586BD35F2909C59AF7467C
 ca1.nic.cr.		172800	IN	A	185.159.197.100
 ca1.nic.cr.		172800	IN	AAAA	2620:10a:80aa:0:0:0:0:100
@@ -3596,8 +3592,6 @@ dns.nic.cr.		172800	IN	AAAA	2001:13c7:7004:1:0:0:0:d100
 p.nic.cr.		172800	IN	A	204.61.216.89
 p.nic.cr.		172800	IN	AAAA	2001:500:14:6089:ad:0:0:1
 ns.cr.			172800	IN	A	163.178.8.2
-a.ns.cr.		172800	IN	A	200.107.82.100
-a.ns.cr.		172800	IN	AAAA	2001:13c7:7004:1:0:0:0:d100
 credit.			172800	IN	NS	demand.beta.aridns.net.au.
 credit.			172800	IN	NS	demand.alpha.aridns.net.au.
 credit.			172800	IN	NS	demand.delta.aridns.net.au.
