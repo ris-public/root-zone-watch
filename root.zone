@@ -10408,7 +10408,6 @@ np.			172800	IN	NS	np.cctld.authdns.ripe.net.
 np.			172800	IN	NS	ns4.apnic.net.
 np.			172800	IN	NS	pch.nnic.np.
 np.			172800	IN	NS	np-ns.npix.net.np.
-np.			172800	IN	NS	ns-ext.isc.org.
 np.			172800	IN	NS	shikhar.mos.com.np.
 shikhar.mos.com.np.	172800	IN	A	202.52.255.5
 np-ns.npix.net.np.	172800	IN	A	198.32.126.50
