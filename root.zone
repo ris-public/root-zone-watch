@@ -7019,6 +7019,7 @@ a2.pro.afilias-nst.info.	172800	IN	AAAA	2001:500:e0:0:0:0:0:1
 c0.pro.afilias-nst.info.	172800	IN	A	199.182.16.1
 c0.pro.afilias-nst.info.	172800	IN	AAAA	2001:500:d0:0:0:0:0:1
 tld5.ultradns.info.	172800	IN	A	192.100.59.11
+ns2.uniregistry.info.	172800	IN	A	64.96.2.1
 ns2.uniregistry.info.	172800	IN	A	64.96.245.53
 ns4.uniregistry.info.	172800	IN	A	185.159.198.3
 ns4.uniregistry.info.	172800	IN	AAAA	2620:10a:80ab:0:0:0:0:3
