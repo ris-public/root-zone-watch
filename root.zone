@@ -3829,20 +3829,34 @@ dnsa.nic.cymru.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
 dnsb.nic.cymru.		172800	IN	A	156.154.101.3
 dnsc.nic.cymru.		172800	IN	A	156.154.102.3
 dnsd.nic.cymru.		172800	IN	A	156.154.103.3
+cyou.			172800	IN	NS	a.nic.cyou.
+cyou.			172800	IN	NS	b.nic.cyou.
+cyou.			172800	IN	NS	c.nic.cyou.
+cyou.			172800	IN	NS	d.nic.cyou.
 cyou.			172800	IN	NS	a0.nic.cyou.
 cyou.			172800	IN	NS	a2.nic.cyou.
 cyou.			172800	IN	NS	b0.nic.cyou.
 cyou.			172800	IN	NS	c0.nic.cyou.
+cyou.			86400	IN	DS	26224 7 1 CF7780DC4E67FFD559828422B6747CE2DC7649DD
+cyou.			86400	IN	DS	26224 7 2 B19FAFBC97D17EB0FB2C1D86170D4AEBA7896B36C66BBB9D22796595056C986B
 cyou.			86400	IN	DS	42985 7 1 F1BE1321796AFB34B2BEC02ED9412966291B2C21
 cyou.			86400	IN	DS	42985 7 2 6C0507565B162FF6A377B4E7E5E33A126987DE3C7FDBC1644E247FB60E1094E3
+a.nic.cyou.		172800	IN	A	194.169.218.120
+a.nic.cyou.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:120
 a0.nic.cyou.		172800	IN	A	65.22.128.9
 a0.nic.cyou.		172800	IN	AAAA	2a01:8840:7e:0:0:0:0:9
 a2.nic.cyou.		172800	IN	A	65.22.131.9
 a2.nic.cyou.		172800	IN	AAAA	2a01:8840:81:0:0:0:0:9
+b.nic.cyou.		172800	IN	A	185.24.64.120
+b.nic.cyou.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:120
 b0.nic.cyou.		172800	IN	A	65.22.129.9
 b0.nic.cyou.		172800	IN	AAAA	2a01:8840:7f:0:0:0:0:9
+c.nic.cyou.		172800	IN	A	212.18.248.120
+c.nic.cyou.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:120
 c0.nic.cyou.		172800	IN	A	65.22.130.9
 c0.nic.cyou.		172800	IN	AAAA	2a01:8840:80:0:0:0:0:9
+d.nic.cyou.		172800	IN	A	212.18.249.120
+d.nic.cyou.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:120
 cz.			172800	IN	NS	a.ns.nic.cz.
 cz.			172800	IN	NS	b.ns.nic.cz.
 cz.			172800	IN	NS	c.ns.nic.cz.
@@ -15482,8 +15496,8 @@ vlaanderen.		172800	IN	NS	a.nic.vlaanderen.
 vlaanderen.		172800	IN	NS	b.nic.vlaanderen.
 vlaanderen.		172800	IN	NS	c.ns.dns.be.
 vlaanderen.		172800	IN	NS	d.ns.dns.be.
-vlaanderen.		172800	IN	NS	x.nic.vlaanderen.
 vlaanderen.		172800	IN	NS	y.ns.dns.be.
+vlaanderen.		172800	IN	NS	z.nsset.vlaanderen.
 vlaanderen.		86400	IN	DS	9286 8 1 D8689711ACE25FB8C7DFBD54443BF90411A75C57
 vlaanderen.		86400	IN	DS	9286 8 2 F04E1190A18D3E63B8FD5261768EF06F8FA5F27F80F39C54AA81753B203E05E7
 vlaanderen.		86400	IN	DS	54397 8 1 00689FA2394B6E5D080887DF8C162368B362D855
@@ -15492,8 +15506,8 @@ a.nic.vlaanderen.	172800	IN	A	194.0.6.1
 a.nic.vlaanderen.	172800	IN	AAAA	2001:678:9:0:0:0:0:1
 b.nic.vlaanderen.	172800	IN	A	194.0.37.1
 b.nic.vlaanderen.	172800	IN	AAAA	2001:678:64:0:0:0:0:1
-x.nic.vlaanderen.	172800	IN	A	194.0.1.10
-x.nic.vlaanderen.	172800	IN	AAAA	2001:678:4:0:0:0:0:a
+z.nsset.vlaanderen.	172800	IN	A	194.0.25.19
+z.nsset.vlaanderen.	172800	IN	AAAA	2001:678:20:0:0:0:0:19
 vn.			172800	IN	NS	a.dns-servers.vn.
 vn.			172800	IN	NS	b.dns-servers.vn.
 vn.			172800	IN	NS	c.dns-servers.vn.
