@@ -11507,6 +11507,7 @@ pl.			172800	IN	NS	a-dns.pl.
 pl.			172800	IN	NS	b-dns.pl.
 pl.			172800	IN	NS	c-dns.pl.
 pl.			172800	IN	NS	d-dns.pl.
+pl.			172800	IN	NS	e-dns.pl.
 pl.			172800	IN	NS	f-dns.pl.
 pl.			172800	IN	NS	g-dns.pl.
 pl.			172800	IN	NS	h-dns.pl.
@@ -11520,6 +11521,7 @@ c-dns.pl.		172800	IN	A	93.190.128.146
 c-dns.pl.		172800	IN	AAAA	2a02:38:14:0:0:0:0:146
 d-dns.pl.		172800	IN	A	185.159.197.48
 d-dns.pl.		172800	IN	AAAA	2620:10a:80aa:0:0:0:0:48
+e-dns.pl.		172800	IN	A	46.28.245.82
 f-dns.pl.		172800	IN	A	194.0.25.29
 f-dns.pl.		172800	IN	AAAA	2001:678:20:0:0:0:0:29
 g-dns.pl.		172800	IN	A	149.156.1.252
