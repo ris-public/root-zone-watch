@@ -2739,6 +2739,7 @@ cg.			172800	IN	NS	dns-fr.dnsafrica.net.
 cg.			172800	IN	NS	dns-za.dnsafrica.net.
 ch.			172800	IN	NS	a.nic.ch.
 ch.			172800	IN	NS	b.nic.ch.
+ch.			172800	IN	NS	c.nic.ch.
 ch.			172800	IN	NS	e.nic.ch.
 ch.			172800	IN	NS	f.nic.ch.
 ch.			172800	IN	NS	g.nic.ch.
@@ -2750,11 +2751,12 @@ a.nic.ch.		172800	IN	A	130.59.31.41
 a.nic.ch.		172800	IN	AAAA	2001:620:0:ff:0:0:0:56
 b.nic.ch.		172800	IN	A	130.59.31.43
 b.nic.ch.		172800	IN	AAAA	2001:620:0:ff:0:0:0:58
+c.nic.ch.		172800	IN	A	74.116.178.40
+c.nic.ch.		172800	IN	AAAA	2620:7d:e000:0:0:0:0:28
 e.nic.ch.		172800	IN	A	194.0.17.1
 e.nic.ch.		172800	IN	AAAA	2001:678:3:0:0:0:0:1
 f.nic.ch.		172800	IN	A	194.146.106.10
 f.nic.ch.		172800	IN	AAAA	2001:67c:1010:2:0:0:0:53
-g.nic.ch.		172800	IN	A	74.116.178.40
 g.nic.ch.		172800	IN	A	194.0.1.40
 g.nic.ch.		172800	IN	AAAA	2001:678:4:0:0:0:0:28
 h.nic.ch.		172800	IN	A	85.119.5.230
