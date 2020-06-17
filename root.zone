@@ -12774,7 +12774,6 @@ sg.			172800	IN	NS	dsany.sgnic.sg.
 sg.			172800	IN	NS	dsany2.sgnic.sg.
 sg.			172800	IN	NS	dsany3.sgnic.sg.
 sg.			86400	IN	DS	12164 8 2 6F6D69E69C30F89C42821439A424B3155A1AC573B5CD902B0BE20DC7C82059A0
-sg.			86400	IN	DS	34234 8 2 FEACAA03AFE4D8842DA3AF03C94AEDF104D99ACB5729572B1F202AB1744681E1
 dsany.sgnic.sg.		172800	IN	A	120.29.253.11
 dsany.sgnic.sg.		172800	IN	AAAA	2001:dcd:7:0:0:0:0:11
 dsany2.sgnic.sg.	172800	IN	A	185.159.197.170
@@ -14890,19 +14889,17 @@ dnsa.nic.vip.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
 dnsb.nic.vip.		172800	IN	A	156.154.101.3
 dnsc.nic.vip.		172800	IN	A	156.154.102.3
 dnsd.nic.vip.		172800	IN	A	156.154.103.3
-virgin.			172800	IN	NS	c.nic.virgin.
-virgin.			172800	IN	NS	d.nic.virgin.
 virgin.			172800	IN	NS	dns1.nic.virgin.
 virgin.			172800	IN	NS	dns2.nic.virgin.
 virgin.			172800	IN	NS	dns3.nic.virgin.
 virgin.			172800	IN	NS	dns4.nic.virgin.
+virgin.			172800	IN	NS	dnsa.nic.virgin.
+virgin.			172800	IN	NS	dnsb.nic.virgin.
+virgin.			172800	IN	NS	dnsc.nic.virgin.
+virgin.			172800	IN	NS	dnsd.nic.virgin.
 virgin.			86400	IN	DS	41930 8 2 64E74557CC76DD3BB05F8EB86EBF531B186D95E91BFDAA09F35FD620D960603A
 virgin.			86400	IN	DS	52249 8 1 453B608A7855C7943232E468B5E85E7F68463DD4
 virgin.			86400	IN	DS	52249 8 2 AA6E74273DB69ED386359979CC0EC1E28213609D5C76D3C05EDA280F8435C693
-c.nic.virgin.		172800	IN	A	37.209.196.9
-c.nic.virgin.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
-d.nic.virgin.		172800	IN	A	37.209.198.9
-d.nic.virgin.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:9
 dns1.nic.virgin.	172800	IN	A	213.248.219.40
 dns1.nic.virgin.	172800	IN	AAAA	2a01:618:403:0:0:0:0:40
 dns2.nic.virgin.	172800	IN	A	103.49.83.40
@@ -14911,6 +14908,11 @@ dns3.nic.virgin.	172800	IN	A	213.248.223.40
 dns3.nic.virgin.	172800	IN	AAAA	2a01:618:407:0:0:0:0:40
 dns4.nic.virgin.	172800	IN	A	43.230.51.40
 dns4.nic.virgin.	172800	IN	AAAA	2401:fd80:407:0:0:0:0:40
+dnsa.nic.virgin.	172800	IN	A	156.154.100.3
+dnsa.nic.virgin.	172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
+dnsb.nic.virgin.	172800	IN	A	156.154.101.3
+dnsc.nic.virgin.	172800	IN	A	156.154.102.3
+dnsd.nic.virgin.	172800	IN	A	156.154.103.3
 visa.			172800	IN	NS	ac1.nstld.com.
 visa.			172800	IN	NS	ac2.nstld.com.
 visa.			172800	IN	NS	ac3.nstld.com.
@@ -16015,7 +16017,6 @@ xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	pch.sgzones.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany2.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany3.sgnic.sg.
-xn--clchc0ea0b2g2a9gcd.	86400	IN	DS	11866 8 2 99E8287957F8A7960825D232AD961AACD6F7A66E546FD39231AFB713C11BBFB6
 xn--clchc0ea0b2g2a9gcd.	86400	IN	DS	39581 8 2 B0D5C02493DF56DBD95608E23CA16EBF54FD7057C227083075C5865A6ACAFF8E
 xn--czr694b.		172800	IN	NS	a.zdnscloud.com.
 xn--czr694b.		172800	IN	NS	b.zdnscloud.com.
@@ -17007,7 +17008,6 @@ xn--yfro4i67o.		172800	IN	NS	pch.sgzones.sg.
 xn--yfro4i67o.		172800	IN	NS	dsany.sgnic.sg.
 xn--yfro4i67o.		172800	IN	NS	dsany2.sgnic.sg.
 xn--yfro4i67o.		172800	IN	NS	dsany3.sgnic.sg.
-xn--yfro4i67o.		86400	IN	DS	1571 8 2 9CC25AFF594C63EBB4AE0FA6A24E6D4B4F2641BCFEE5AB91E2C3BB233CBCE22D
 xn--yfro4i67o.		86400	IN	DS	41084 8 2 30E799A3AFCA3D9082C422241E9CDFA9B31F3914EBB0B26DD7C6EFC0F82057E8
 xn--ygbi2ammx.		172800	IN	NS	idn.pnina.ps.
 xn--ygbi2ammx.		172800	IN	NS	ns1.pnina.ps.
