@@ -16390,26 +16390,6 @@ xn--kpry57d.		172800	IN	NS	g.dns.tw.
 xn--kpry57d.		172800	IN	NS	h.dns.tw.
 xn--kpry57d.		172800	IN	NS	anytld.apnic.net.
 xn--kpry57d.		86400	IN	DS	48136 8 2 CB67B0A6DABD9DEC11940FD42789457E52256F13CD33B7EC08347514D3549263
-xn--kpu716f.		172800	IN	NS	ns1.dns.nic.xn--kpu716f.
-xn--kpu716f.		172800	IN	NS	ns2.dns.nic.xn--kpu716f.
-xn--kpu716f.		172800	IN	NS	ns3.dns.nic.xn--kpu716f.
-xn--kpu716f.		172800	IN	NS	ns4.dns.nic.xn--kpu716f.
-xn--kpu716f.		172800	IN	NS	ns5.dns.nic.xn--kpu716f.
-xn--kpu716f.		172800	IN	NS	ns6.dns.nic.xn--kpu716f.
-xn--kpu716f.		86400	IN	DS	31399 8 1 A52ED9F845A609EDF88964972DDC19546CDAE033
-xn--kpu716f.		86400	IN	DS	31399 8 2 6E6FDC9F7B64E97A291109A8CEEB3C770C86A8F15AD8D238FEA54F2B4C22A83F
-ns1.dns.nic.xn--kpu716f.	172800	IN	A	156.154.144.176
-ns1.dns.nic.xn--kpu716f.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:b0
-ns2.dns.nic.xn--kpu716f.	172800	IN	A	156.154.145.176
-ns2.dns.nic.xn--kpu716f.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:b0
-ns3.dns.nic.xn--kpu716f.	172800	IN	A	156.154.159.176
-ns3.dns.nic.xn--kpu716f.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:b0
-ns4.dns.nic.xn--kpu716f.	172800	IN	A	156.154.156.176
-ns4.dns.nic.xn--kpu716f.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:b0
-ns5.dns.nic.xn--kpu716f.	172800	IN	A	156.154.157.176
-ns5.dns.nic.xn--kpu716f.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:b0
-ns6.dns.nic.xn--kpu716f.	172800	IN	A	156.154.158.176
-ns6.dns.nic.xn--kpu716f.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:b0
 xn--kput3i.		172800	IN	NS	a0.nic.xn--kput3i.
 xn--kput3i.		172800	IN	NS	a2.nic.xn--kput3i.
 xn--kput3i.		172800	IN	NS	b0.nic.xn--kput3i.
@@ -16739,26 +16719,6 @@ xn--p1ai.		172800	IN	NS	d.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	e.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	f.dns.ripn.net.
 xn--p1ai.		86400	IN	DS	20477 8 2 D320ABF8A0F209BAA2FB5660F4014FA94CF069C16895800061FB2236BABE61E0
-xn--pbt977c.		172800	IN	NS	ns1.dns.nic.xn--pbt977c.
-xn--pbt977c.		172800	IN	NS	ns2.dns.nic.xn--pbt977c.
-xn--pbt977c.		172800	IN	NS	ns3.dns.nic.xn--pbt977c.
-xn--pbt977c.		172800	IN	NS	ns4.dns.nic.xn--pbt977c.
-xn--pbt977c.		172800	IN	NS	ns5.dns.nic.xn--pbt977c.
-xn--pbt977c.		172800	IN	NS	ns6.dns.nic.xn--pbt977c.
-xn--pbt977c.		86400	IN	DS	67 8 1 1B10782775F4C8D1F528AB739C521C0107688F44
-xn--pbt977c.		86400	IN	DS	67 8 2 3C6C63B53B33C714C84C6E1A6E9719FD861763439D4A472BFC8A4E1B55BCD366
-ns1.dns.nic.xn--pbt977c.	172800	IN	A	156.154.169.75
-ns1.dns.nic.xn--pbt977c.	172800	IN	AAAA	2610:a1:1071:0:0:0:1:4b
-ns2.dns.nic.xn--pbt977c.	172800	IN	A	156.154.170.75
-ns2.dns.nic.xn--pbt977c.	172800	IN	AAAA	2610:a1:1072:0:0:0:1:4b
-ns3.dns.nic.xn--pbt977c.	172800	IN	A	156.154.171.75
-ns3.dns.nic.xn--pbt977c.	172800	IN	AAAA	2610:a1:1073:0:0:0:1:4b
-ns4.dns.nic.xn--pbt977c.	172800	IN	A	156.154.172.75
-ns4.dns.nic.xn--pbt977c.	172800	IN	AAAA	2610:a1:1074:0:0:0:1:4b
-ns5.dns.nic.xn--pbt977c.	172800	IN	A	156.154.173.75
-ns5.dns.nic.xn--pbt977c.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:4b
-ns6.dns.nic.xn--pbt977c.	172800	IN	A	156.154.174.75
-ns6.dns.nic.xn--pbt977c.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:4b
 xn--pgbs0dh.		172800	IN	NS	ns1.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.nic.fr.
