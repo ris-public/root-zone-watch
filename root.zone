@@ -369,20 +369,6 @@ ns5.dns.nic.aig.	172800	IN	A	156.154.157.6
 ns5.dns.nic.aig.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:6
 ns6.dns.nic.aig.	172800	IN	A	156.154.158.6
 ns6.dns.nic.aig.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:6
-aigo.			172800	IN	NS	a0.nic.aigo.
-aigo.			172800	IN	NS	a2.nic.aigo.
-aigo.			172800	IN	NS	b0.nic.aigo.
-aigo.			172800	IN	NS	c0.nic.aigo.
-aigo.			86400	IN	DS	57270 7 1 6D5722028CA894DCB7AF2D2E5ADC72E27B3F2678
-aigo.			86400	IN	DS	57270 7 2 D3903CBE561C266E732ECC4432F91AC49A8A5234838068AFFBD2AF8D4DDF6A8B
-a0.nic.aigo.		172800	IN	A	65.22.132.25
-a0.nic.aigo.		172800	IN	AAAA	2a01:8840:82:0:0:0:0:25
-a2.nic.aigo.		172800	IN	A	65.22.135.25
-a2.nic.aigo.		172800	IN	AAAA	2a01:8840:85:0:0:0:0:25
-b0.nic.aigo.		172800	IN	A	65.22.133.25
-b0.nic.aigo.		172800	IN	AAAA	2a01:8840:83:0:0:0:0:25
-c0.nic.aigo.		172800	IN	A	65.22.134.25
-c0.nic.aigo.		172800	IN	AAAA	2a01:8840:84:0:0:0:0:25
 airbus.			172800	IN	NS	ac1.nstld.com.
 airbus.			172800	IN	NS	ac2.nstld.com.
 airbus.			172800	IN	NS	ac3.nstld.com.
