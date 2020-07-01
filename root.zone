@@ -12386,9 +12386,7 @@ c.nic.saxo.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
 d.nic.saxo.		172800	IN	A	37.209.198.9
 d.nic.saxo.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:9
 sb.			172800	IN	NS	ns.cocca.fr.
-sb.			172800	IN	NS	ns.coccaregistry.org.
 sb.			172800	IN	NS	pch.nic.sb.
-sb.			172800	IN	NS	sns-pb.isc.org.
 sb.			86400	IN	DS	17635 8 2 27F59686A15B09DC8293FAC9C31E5BE51ABF214E1E9CD5B21CBE50F0F311C780
 pch.nic.sb.		172800	IN	A	204.61.216.31
 pch.nic.sb.		172800	IN	AAAA	2001:500:14:6031:ad:0:0:1
