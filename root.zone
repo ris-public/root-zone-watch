@@ -13720,7 +13720,7 @@ tatar.			172800	IN	NS	b.dns.ripn.net.
 tatar.			172800	IN	NS	d.dns.ripn.net.
 tatar.			172800	IN	NS	e.dns.ripn.net.
 tatar.			172800	IN	NS	f.dns.ripn.net.
-tatar.			86400	IN	DS	40150 8 2 8C6B672B07E3AAD1652CB3F03120C2EE13D7D228424A71723B594C8FB8C931FC
+tatar.			86400	IN	DS	64030 8 2 25AA4C81B0DFDE668D13338F9F6DC6FDD85AD75A0D3B9D5F0B0A51CCAFCD4937
 tattoo.			172800	IN	NS	ns1.uniregistry.net.
 tattoo.			172800	IN	NS	ns2.uniregistry.info.
 tattoo.			172800	IN	NS	ns3.uniregistry.net.
@@ -17026,26 +17026,14 @@ dnsa.nic.yamaxun.	172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
 dnsb.nic.yamaxun.	172800	IN	A	156.154.101.3
 dnsc.nic.yamaxun.	172800	IN	A	156.154.102.3
 dnsd.nic.yamaxun.	172800	IN	A	156.154.103.3
-yandex.			172800	IN	NS	ns1.dns.nic.yandex.
 yandex.			172800	IN	NS	ns1.uniregistry.net.
-yandex.			172800	IN	NS	ns2.dns.nic.yandex.
 yandex.			172800	IN	NS	ns2.uniregistry.info.
-yandex.			172800	IN	NS	ns3.dns.nic.yandex.
 yandex.			172800	IN	NS	ns3.uniregistry.net.
-yandex.			172800	IN	NS	ns4.dns.nic.yandex.
 yandex.			172800	IN	NS	ns4.uniregistry.info.
 yandex.			86400	IN	DS	37312 8 1 0936F4EAF30CF0A444FCE3272F4F8E8BCFE42773
 yandex.			86400	IN	DS	37312 8 2 DBFCE8CEB762071A15A946B22B2818965432EF6CA25FA3CFEB7E5715625774C0
 yandex.			86400	IN	DS	43915 8 1 7FF6B054177699C54B9EFA0C4B82821AABD4AEF2
 yandex.			86400	IN	DS	43915 8 2 14567E2EA9A252E0A0BD301830EDB16880568A8E6F2BA4ED076F128C8B554DA1
-ns1.dns.nic.yandex.	172800	IN	A	156.154.144.186
-ns1.dns.nic.yandex.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:ba
-ns2.dns.nic.yandex.	172800	IN	A	156.154.145.186
-ns2.dns.nic.yandex.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:ba
-ns3.dns.nic.yandex.	172800	IN	A	156.154.159.186
-ns3.dns.nic.yandex.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:ba
-ns4.dns.nic.yandex.	172800	IN	A	156.154.156.186
-ns4.dns.nic.yandex.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:ba
 ye.			172800	IN	NS	ns1.yemen.net.ye.
 ye.			172800	IN	NS	ns2.yemen.net.ye.
 ye.			172800	IN	NS	sah1.ye.
