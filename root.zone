@@ -7045,10 +7045,8 @@ ns5.dns.nic.ipiranga.	172800	IN	A	156.154.157.83
 ns5.dns.nic.ipiranga.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:53
 ns6.dns.nic.ipiranga.	172800	IN	A	156.154.158.83
 ns6.dns.nic.ipiranga.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:53
+iq.			172800	IN	NS	ns.cocca.fr.
 iq.			172800	IN	NS	ns1.cmc.iq.
-iq.			172800	IN	NS	dyn1.cmc.iq.
-iq.			172800	IN	NS	dyn2.cmc.iq.
-iq.			172800	IN	NS	sns-pb.isc.org.
 iq.			172800	IN	NS	nsp-anycast.cmc.iq.
 dyn1.cmc.iq.		172800	IN	A	199.19.5.8
 dyn1.cmc.iq.		172800	IN	AAAA	2001:500:92:0:0:0:0:8
