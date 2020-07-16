@@ -3666,6 +3666,7 @@ ns.anycast.nic.cx.	172800	IN	A	204.61.216.16
 ns.anycast.nic.cx.	172800	IN	AAAA	2001:500:14:6016:ad:0:0:1
 cy.			172800	IN	NS	ns4.apnic.net.
 cy.			172800	IN	NS	ns02.savvis.net.
+cy.			172800	IN	NS	ns31.rcode0.net.
 cy.			172800	IN	NS	cy-ns.anycast.pch.net.
 cy.			172800	IN	NS	cynic.dns.cy.
 cy.			172800	IN	NS	estia.ics.forth.gr.
@@ -7693,7 +7694,7 @@ kr.			172800	IN	NS	d.dns.kr.
 kr.			172800	IN	NS	e.dns.kr.
 kr.			172800	IN	NS	f.dns.kr.
 kr.			172800	IN	NS	g.dns.kr.
-kr.			86400	IN	DS	17625 7 2 FB939059F4B67BBA1E8AC37E35811E506488B2D8CFF807AF873B2116B5676B5C
+kr.			86400	IN	DS	61615 8 2 ED570AADC88713CE2775FB8AFFB2AD782D056EA21D0677E147F2FB7BF54404DA
 b.dns.kr.		172800	IN	A	210.101.60.1
 c.dns.kr.		172800	IN	A	210.101.61.1
 d.dns.kr.		172800	IN	A	203.83.159.1
@@ -9757,6 +9758,8 @@ cat.pch.net.		172800	IN	AAAA	2001:500:14:6020:ad:0:0:1
 nic.lk-anycast.pch.net.	172800	IN	A	204.61.216.27
 ns15.rcode0.net.	172800	IN	A	194.0.25.15
 ns15.rcode0.net.	172800	IN	AAAA	2001:678:20:0:0:0:0:15
+ns31.rcode0.net.	172800	IN	A	194.0.25.31
+ns31.rcode0.net.	172800	IN	AAAA	2001:678:20:0:0:0:0:31
 ad.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.53
 ad.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:53
 ar.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.59
