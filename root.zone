@@ -9023,6 +9023,7 @@ d.nic.net.mm.		172800	IN	A	37.209.198.4
 mma.			172800	IN	NS	d.nic.fr.
 mma.			172800	IN	NS	f.ext.nic.fr.
 mma.			172800	IN	NS	g.ext.nic.fr.
+mma.			86400	IN	DS	29313 13 2 BE2C9005F5594D4D8D9B8E6A708448335F2C589EE25CC20196671E5A16D9796F
 mma.			86400	IN	DS	54041 8 2 0658E75221ECE0AB0F8856E1D726AD5C898E911EF30E2F6E48C62217E391FEF2
 mn.			172800	IN	NS	a0.cctld.afilias-nst.info.
 mn.			172800	IN	NS	a2.cctld.afilias-nst.info.
@@ -13600,11 +13601,6 @@ c.nic.sydney.		172800	IN	A	37.209.196.10
 c.nic.sydney.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:10
 d.nic.sydney.		172800	IN	A	37.209.198.10
 d.nic.sydney.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:10
-symantec.		172800	IN	NS	ac1.nstld.com.
-symantec.		172800	IN	NS	ac2.nstld.com.
-symantec.		172800	IN	NS	ac3.nstld.com.
-symantec.		172800	IN	NS	ac4.nstld.com.
-symantec.		86400	IN	DS	3243 8 2 5C0B80B76D8C41D65F1E817558F7A03F4DF3C1DBA6E7F78CD1FB9577E69804B5
 systems.		172800	IN	NS	demand.beta.aridns.net.au.
 systems.		172800	IN	NS	demand.alpha.aridns.net.au.
 systems.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -14190,6 +14186,7 @@ toshiba.		86400	IN	DS	38891 8 2 3EF24A44F5FFDA39FE23E4E4E4D2449E55A0B3001EC68A07
 total.			172800	IN	NS	d.nic.fr.
 total.			172800	IN	NS	f.ext.nic.fr.
 total.			172800	IN	NS	g.ext.nic.fr.
+total.			86400	IN	DS	2392 13 2 B4BF08F83435826190131F4DA5D7799998922E8FF367693B4F903AC86717ED03
 total.			86400	IN	DS	34775 8 2 362DEFC3D011518F8CF871BE111CE314FD20F54AF98C508996A93658C4D5EB43
 tours.			172800	IN	NS	demand.beta.aridns.net.au.
 tours.			172800	IN	NS	demand.alpha.aridns.net.au.
