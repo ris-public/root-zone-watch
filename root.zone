@@ -13520,6 +13520,7 @@ sv.			172800	IN	NS	cir.red.sv.
 sv.			172800	IN	NS	dns.nic.cr.
 sv.			172800	IN	NS	sir.red.sv.
 sv.			172800	IN	NS	auth02.ns.uu.net.
+sv.			172800	IN	NS	dns-ext.nic.cr.
 cir.red.sv.		172800	IN	A	168.243.254.1
 sir.red.sv.		172800	IN	A	131.100.140.162
 swatch.			172800	IN	NS	ac1.nstld.com.
