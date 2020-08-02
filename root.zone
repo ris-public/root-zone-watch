@@ -10724,7 +10724,6 @@ ovh.			86400	IN	DS	4719 13 2 50F56A97E03DD0977E263E1B02E9C0D2CFB1C4D09FD3C966576
 pa.			172800	IN	NS	ns.pa.
 pa.			172800	IN	NS	ns.dns.br.
 pa.			172800	IN	NS	ns.nic.pa.
-pa.			172800	IN	NS	dns.nic.cr.
 pa.			172800	IN	NS	ns2.pa.
 pa.			172800	IN	NS	dns-ext.nic.cr.
 pa.			172800	IN	NS	ssdns-tld.nic.cl.
