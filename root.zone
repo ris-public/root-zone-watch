@@ -12582,20 +12582,13 @@ dnsc.nic.secure.	172800	IN	A	156.154.102.3
 dnsd.nic.secure.	172800	IN	A	156.154.103.3
 security.		172800	IN	NS	a.nic.security.
 security.		172800	IN	NS	b.nic.security.
-security.		172800	IN	NS	c.nic.security.
-security.		172800	IN	NS	d.nic.security.
 security.		172800	IN	NS	e.nic.security.
 security.		172800	IN	NS	f.nic.security.
-security.		86400	IN	DS	14150 8 1 E14122358E5F8AFC204A70C4D71F312D7C6595BB
 security.		86400	IN	DS	14150 8 2 2859485C57B2B929084427B8C2B444200FA44011015AA6BF005146582947A257
 a.nic.security.		172800	IN	A	194.169.218.68
 a.nic.security.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:68
 b.nic.security.		172800	IN	A	185.24.64.68
 b.nic.security.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:68
-c.nic.security.		172800	IN	A	185.38.99.9
-c.nic.security.		172800	IN	AAAA	2a02:e180:3:0:0:0:0:9
-d.nic.security.		172800	IN	A	108.59.161.9
-d.nic.security.		172800	IN	AAAA	2a02:e180:4:0:0:0:0:9
 e.nic.security.		172800	IN	A	212.18.248.68
 e.nic.security.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:68
 f.nic.security.		172800	IN	A	212.18.249.68
