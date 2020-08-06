@@ -9590,22 +9590,6 @@ fork.sth.dnsnode.net.	172800	IN	A	77.72.229.254
 fork.sth.dnsnode.net.	172800	IN	AAAA	2a01:3f0:0:306:0:0:0:53
 za1.dnsnode.net.	172800	IN	A	194.146.106.78
 za1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:19:0:0:0:53
-a.samsung.dyntld.net.	172800	IN	A	162.88.40.2
-a.samsung.dyntld.net.	172800	IN	AAAA	2600:2000:3010:0:0:0:0:2
-b.samsung.dyntld.net.	172800	IN	A	162.88.41.2
-b.samsung.dyntld.net.	172800	IN	AAAA	2600:2000:3011:0:0:0:0:2
-c.samsung.dyntld.net.	172800	IN	A	162.88.42.2
-c.samsung.dyntld.net.	172800	IN	AAAA	2600:2000:3012:0:0:0:0:2
-d.samsung.dyntld.net.	172800	IN	A	162.88.43.2
-d.samsung.dyntld.net.	172800	IN	AAAA	2600:2000:3013:0:0:0:0:2
-a.xn--cg4bki.dyntld.net.	172800	IN	A	162.88.40.1
-a.xn--cg4bki.dyntld.net.	172800	IN	AAAA	2600:2000:3010:0:0:0:0:1
-b.xn--cg4bki.dyntld.net.	172800	IN	A	162.88.41.1
-b.xn--cg4bki.dyntld.net.	172800	IN	AAAA	2600:2000:3011:0:0:0:0:1
-c.xn--cg4bki.dyntld.net.	172800	IN	A	162.88.42.1
-c.xn--cg4bki.dyntld.net.	172800	IN	AAAA	2600:2000:3012:0:0:0:0:1
-d.xn--cg4bki.dyntld.net.	172800	IN	A	162.88.43.1
-d.xn--cg4bki.dyntld.net.	172800	IN	AAAA	2600:2000:3013:0:0:0:0:1
 a.edu-servers.net.	172800	IN	A	192.5.6.30
 a.edu-servers.net.	172800	IN	AAAA	2001:503:a83e:0:0:0:2:30
 b.edu-servers.net.	172800	IN	A	192.33.14.30
@@ -12262,10 +12246,6 @@ samsclub.		172800	IN	NS	ac2.nstld.com.
 samsclub.		172800	IN	NS	ac3.nstld.com.
 samsclub.		172800	IN	NS	ac4.nstld.com.
 samsclub.		86400	IN	DS	3888 8 2 12C5EB19D3471E5BD6BC69D1E38B1B37B26EC950E0367E158DF6221293B17806
-samsung.		172800	IN	NS	a.samsung.dyntld.net.
-samsung.		172800	IN	NS	b.samsung.dyntld.net.
-samsung.		172800	IN	NS	c.samsung.dyntld.net.
-samsung.		172800	IN	NS	d.samsung.dyntld.net.
 samsung.		172800	IN	NS	ns1.samsung.centralnic-dns.com.
 samsung.		172800	IN	NS	ns2.samsung.centralnic-dns.com.
 samsung.		172800	IN	NS	ns3.samsung.centralnic-dns.com.
@@ -14736,6 +14716,7 @@ verisign.		86400	IN	DS	34740 8 2 7468287539BBB69B7D1FCE14B16E16B6F75B6A1A8E50832
 versicherung.		172800	IN	NS	a.dns.nic.versicherung.
 versicherung.		172800	IN	NS	m.dns.nic.versicherung.
 versicherung.		172800	IN	NS	n.dns.nic.versicherung.
+versicherung.		86400	IN	DS	20576 8 2 EFD54D9277685E2B353D54E7ABADFFC424DEBD8028D7F444119E8B36C0117466
 versicherung.		86400	IN	DS	26134 8 2 925EE924B5BC6876443E476C16EAF5BF02885ACADBDF27CA2C87BE8EEB7F3B41
 versicherung.		86400	IN	DS	50227 8 2 5D0D0DA59BE4750137E7B2B9E44C5A5CC19D5C7CDF5BB542ADB7630FF3D1FB90
 a.dns.nic.versicherung.	172800	IN	A	194.0.25.13
@@ -15004,11 +14985,23 @@ b0.nic.vote.		172800	IN	AAAA	2a01:8840:a3:0:0:0:0:9
 c0.nic.vote.		172800	IN	A	65.22.170.9
 c0.nic.vote.		172800	IN	AAAA	2a01:8840:a4:0:0:0:0:9
 voting.			172800	IN	NS	a.dns.nic.voting.
+voting.			172800	IN	NS	a.nic.voting.
+voting.			172800	IN	NS	b.nic.voting.
+voting.			172800	IN	NS	c.nic.voting.
+voting.			172800	IN	NS	d.nic.voting.
 voting.			172800	IN	NS	m.dns.nic.voting.
 voting.			172800	IN	NS	n.dns.nic.voting.
 voting.			86400	IN	DS	17941 8 2 E6BC6D8C2136BE07A700BBA0F4CEC5505DAFFCB3F6078BC612B50C6540C7D638
 voting.			86400	IN	DS	50080 8 2 C92C59443E44B4F08CDAC7869D4FD41AD869E8FB22031F04FF64CEC71015BBC3
 voting.			86400	IN	DS	51755 8 2 C65CB6885D44EF372400824799D8D6731E52DCA6711CD1F7840329D49DC74E9A
+a.nic.voting.		172800	IN	A	37.209.192.10
+a.nic.voting.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:10
+b.nic.voting.		172800	IN	A	37.209.194.10
+b.nic.voting.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:10
+c.nic.voting.		172800	IN	A	37.209.196.10
+c.nic.voting.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:10
+d.nic.voting.		172800	IN	A	37.209.198.10
+d.nic.voting.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:10
 a.dns.nic.voting.	172800	IN	A	194.0.25.17
 a.dns.nic.voting.	172800	IN	AAAA	2001:678:20:0:0:0:0:17
 m.dns.nic.voting.	172800	IN	A	194.0.26.6
@@ -15956,10 +15949,6 @@ dnsa.nic.xn--cckwcxetd.	172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
 dnsb.nic.xn--cckwcxetd.	172800	IN	A	156.154.101.3
 dnsc.nic.xn--cckwcxetd.	172800	IN	A	156.154.102.3
 dnsd.nic.xn--cckwcxetd.	172800	IN	A	156.154.103.3
-xn--cg4bki.		172800	IN	NS	a.xn--cg4bki.dyntld.net.
-xn--cg4bki.		172800	IN	NS	b.xn--cg4bki.dyntld.net.
-xn--cg4bki.		172800	IN	NS	c.xn--cg4bki.dyntld.net.
-xn--cg4bki.		172800	IN	NS	d.xn--cg4bki.dyntld.net.
 xn--cg4bki.		172800	IN	NS	ns1.xn--cg4bki.centralnic-dns.com.
 xn--cg4bki.		172800	IN	NS	ns2.xn--cg4bki.centralnic-dns.com.
 xn--cg4bki.		172800	IN	NS	ns3.xn--cg4bki.centralnic-dns.com.
