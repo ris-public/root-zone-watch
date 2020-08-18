@@ -6500,6 +6500,7 @@ how.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 how.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 how.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 how.			86400	IN	DS	58609 8 2 CF18DC0907A9D2F0D260C7C4A958EF62312BC64B2832002330A35DBC9FF59075
+hr.			172800	IN	NS	n.dns.hr.
 hr.			172800	IN	NS	pch.carnet.hr.
 hr.			172800	IN	NS	hr-ns-1.carnet.hr.
 hr.			86400	IN	DS	63025 8 1 D2E75CC74208F81B1EE50EFF524259BDA1F72AC1
@@ -6508,6 +6509,8 @@ hr-ns-1.carnet.hr.	172800	IN	A	161.53.160.100
 hr-ns-1.carnet.hr.	172800	IN	AAAA	2001:b68:ff:1:0:0:0:100
 pch.carnet.hr.		172800	IN	A	204.61.216.90
 pch.carnet.hr.		172800	IN	AAAA	2001:500:14:6090:ad:0:0:1
+n.dns.hr.		172800	IN	A	194.146.106.142
+n.dns.hr.		172800	IN	AAAA	2001:67c:1010:36:0:0:0:53
 hsbc.			172800	IN	NS	ns1.dns.nic.hsbc.
 hsbc.			172800	IN	NS	ns2.dns.nic.hsbc.
 hsbc.			172800	IN	NS	ns3.dns.nic.hsbc.
@@ -6719,7 +6722,7 @@ il.			172800	IN	NS	nsb.ns.il.
 il.			172800	IN	NS	nse.ns.il.
 il.			172800	IN	NS	ilns.ilan.net.il.
 il.			172800	IN	NS	lookup.iucc.ac.il.
-il.			86400	IN	DS	38495 8 2 CD89F213712829A920CC89C9D20EC89C3EAFF922D4DD03B76C7923AA7C43FB08
+il.			86400	IN	DS	64444 8 2 CDF58D5DAF76787214A8ECAF5337A7EAB713EFAB5518B99B1595688BBDAB2F74
 lookup.iucc.ac.il.	172800	IN	A	128.139.34.240
 lookup.iucc.ac.il.	172800	IN	AAAA	2001:bf8:900:6:0:0:808b:22f0
 ilns.ilan.net.il.	172800	IN	A	128.139.35.5
@@ -11151,14 +11154,12 @@ pm.			172800	IN	NS	g.ext.nic.fr.
 pm.			86400	IN	DS	1762 13 2 48BF667A04B42E414914A25649E964B5740ED5E0C9F767A23B268D473F00AFB6
 pn.			172800	IN	NS	ns0.pitcairn.net.pn.
 pn.			172800	IN	NS	ns1.pitcairn.net.pn.
-pn.			172800	IN	NS	ns2.pitcairn.net.pn.
 pn.			172800	IN	NS	dns1.nominetdns.uk.
 pn.			172800	IN	NS	dns4.nominetdns.uk.
 pn.			172800	IN	NS	fork.sth.dnsnode.net.
 ns0.pitcairn.net.pn.	172800	IN	A	173.230.153.180
 ns1.pitcairn.net.pn.	172800	IN	A	204.61.216.136
 ns1.pitcairn.net.pn.	172800	IN	AAAA	2001:500:14:6136:ad:0:0:1
-ns2.pitcairn.net.pn.	172800	IN	A	80.68.93.100
 pnc.			172800	IN	NS	a0.nic.pnc.
 pnc.			172800	IN	NS	a2.nic.pnc.
 pnc.			172800	IN	NS	b0.nic.pnc.
@@ -14672,8 +14673,6 @@ ve.			172800	IN	NS	ns6.nic.ve.
 ve.			172800	IN	NS	ssdns-tld.nic.cl.
 ve.			86400	IN	DS	2329 8 1 90D2DDD1FB931CBFE9510A110742C3B017932EA5
 ve.			86400	IN	DS	2329 8 2 D705ED5B98A2C3363B37DC4D32B44556AF9A8FDEF3C20D6CC041CAD026F0B36C
-ve.			86400	IN	DS	11958 7 1 947CB68E3EB8A27CF7BC90BD782828CDC6FAFE97
-ve.			86400	IN	DS	11958 7 2 DF4F2FCAF5D7899B6C20518E867A0B13D848E93EBC92194AFA6CD18BA67FC852
 ns3.nic.ve.		172800	IN	A	190.9.129.56
 ns4.nic.ve.		172800	IN	A	190.202.128.43
 ns5.nic.ve.		172800	IN	A	45.175.22.88
@@ -14975,13 +14974,10 @@ b0.nic.vote.		172800	IN	A	65.22.169.9
 b0.nic.vote.		172800	IN	AAAA	2a01:8840:a3:0:0:0:0:9
 c0.nic.vote.		172800	IN	A	65.22.170.9
 c0.nic.vote.		172800	IN	AAAA	2a01:8840:a4:0:0:0:0:9
-voting.			172800	IN	NS	a.dns.nic.voting.
 voting.			172800	IN	NS	a.nic.voting.
 voting.			172800	IN	NS	b.nic.voting.
 voting.			172800	IN	NS	c.nic.voting.
 voting.			172800	IN	NS	d.nic.voting.
-voting.			172800	IN	NS	m.dns.nic.voting.
-voting.			172800	IN	NS	n.dns.nic.voting.
 voting.			86400	IN	DS	17941 8 2 E6BC6D8C2136BE07A700BBA0F4CEC5505DAFFCB3F6078BC612B50C6540C7D638
 voting.			86400	IN	DS	50080 8 2 C92C59443E44B4F08CDAC7869D4FD41AD869E8FB22031F04FF64CEC71015BBC3
 voting.			86400	IN	DS	51755 8 2 C65CB6885D44EF372400824799D8D6731E52DCA6711CD1F7840329D49DC74E9A
@@ -14993,12 +14989,6 @@ c.nic.voting.		172800	IN	A	37.209.196.10
 c.nic.voting.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:10
 d.nic.voting.		172800	IN	A	37.209.198.10
 d.nic.voting.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:10
-a.dns.nic.voting.	172800	IN	A	194.0.25.17
-a.dns.nic.voting.	172800	IN	AAAA	2001:678:20:0:0:0:0:17
-m.dns.nic.voting.	172800	IN	A	194.0.26.6
-m.dns.nic.voting.	172800	IN	AAAA	2001:67c:10e0:0:0:0:0:6
-n.dns.nic.voting.	172800	IN	A	194.0.24.6
-n.dns.nic.voting.	172800	IN	AAAA	2001:678:24:0:0:0:0:6
 voto.			172800	IN	NS	a0.nic.voto.
 voto.			172800	IN	NS	a2.nic.voto.
 voto.			172800	IN	NS	b0.nic.voto.
