@@ -5381,18 +5381,18 @@ fujixerox.		172800	IN	NS	ac4.nstld.com.
 fujixerox.		86400	IN	DS	63468 8 2 1C3699421E44E22994C5B44CE1CA29918DF4978A3E927AA6FE25EBBB91929566
 fun.			172800	IN	NS	a.nic.fun.
 fun.			172800	IN	NS	b.nic.fun.
-fun.			172800	IN	NS	c.nic.fun.
-fun.			172800	IN	NS	d.nic.fun.
+fun.			172800	IN	NS	e.nic.fun.
+fun.			172800	IN	NS	f.nic.fun.
 fun.			86400	IN	DS	4594 8 1 E256D68D24212DD3355F3AE897504E47F847579C
 fun.			86400	IN	DS	4594 8 2 58D070A391A5808DA071DE7234C293B2A4A32006F1FF152CCAC45E2EE66C3891
 a.nic.fun.		172800	IN	A	194.169.218.72
 a.nic.fun.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:72
 b.nic.fun.		172800	IN	A	185.24.64.72
 b.nic.fun.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:72
-c.nic.fun.		172800	IN	A	185.38.99.12
-c.nic.fun.		172800	IN	AAAA	2a02:e180:3:0:0:0:0:12
-d.nic.fun.		172800	IN	A	108.59.161.12
-d.nic.fun.		172800	IN	AAAA	2a02:e180:4:0:0:0:0:12
+e.nic.fun.		172800	IN	A	212.18.248.72
+e.nic.fun.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:72
+f.nic.fun.		172800	IN	A	212.18.249.72
+f.nic.fun.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:72
 fund.			172800	IN	NS	demand.beta.aridns.net.au.
 fund.			172800	IN	NS	demand.alpha.aridns.net.au.
 fund.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -7048,6 +7048,7 @@ ns5.dns.nic.ipiranga.	172800	IN	A	156.154.157.83
 ns5.dns.nic.ipiranga.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:53
 ns6.dns.nic.ipiranga.	172800	IN	A	156.154.158.83
 ns6.dns.nic.ipiranga.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:53
+iq.			172800	IN	NS	iq.cctld.authdns.ripe.net.
 iq.			172800	IN	NS	ns.cocca.fr.
 iq.			172800	IN	NS	ns1.cmc.iq.
 iq.			172800	IN	NS	nsp-anycast.cmc.iq.
@@ -9761,6 +9762,8 @@ gp.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.76
 gp.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:76
 gu.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.78
 gu.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:78
+iq.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.81
+iq.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:81
 ir.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.85
 ir.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:85
 jm.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.82
@@ -10493,18 +10496,18 @@ c0.nic.onl.		172800	IN	A	65.22.138.1
 c0.nic.onl.		172800	IN	AAAA	2a01:8840:88:0:0:0:0:1
 online.			172800	IN	NS	a.nic.online.
 online.			172800	IN	NS	b.nic.online.
-online.			172800	IN	NS	c.nic.online.
-online.			172800	IN	NS	d.nic.online.
+online.			172800	IN	NS	e.nic.online.
+online.			172800	IN	NS	f.nic.online.
 online.			86400	IN	DS	4267 8 1 A038DA06A96AD8E9BFE2BA78C392FF7804B4CD2B
 online.			86400	IN	DS	4267 8 2 66D7010609CB19E99AD1DA2833DDAB8CA2E7ACC1CE870CC28D29E76EB53D39BA
 a.nic.online.		172800	IN	A	194.169.218.54
 a.nic.online.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:54
 b.nic.online.		172800	IN	A	185.24.64.54
 b.nic.online.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:54
-c.nic.online.		172800	IN	A	185.38.99.7
-c.nic.online.		172800	IN	AAAA	2a02:e180:3:0:0:0:0:7
-d.nic.online.		172800	IN	A	108.59.161.7
-d.nic.online.		172800	IN	AAAA	2a02:e180:4:0:0:0:0:7
+e.nic.online.		172800	IN	A	212.18.248.54
+e.nic.online.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:54
+f.nic.online.		172800	IN	A	212.18.249.54
+f.nic.online.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:54
 onyourside.		172800	IN	NS	ac1.nstld.com.
 onyourside.		172800	IN	NS	ac2.nstld.com.
 onyourside.		172800	IN	NS	ac3.nstld.com.
@@ -11278,18 +11281,18 @@ ns6.dns.nic.praxi.	172800	IN	A	156.154.158.139
 ns6.dns.nic.praxi.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:8b
 press.			172800	IN	NS	a.nic.press.
 press.			172800	IN	NS	b.nic.press.
-press.			172800	IN	NS	c.nic.press.
-press.			172800	IN	NS	d.nic.press.
+press.			172800	IN	NS	e.nic.press.
+press.			172800	IN	NS	f.nic.press.
 press.			86400	IN	DS	4289 8 1 2EFC540D13139B56FC1041247B275BC5CC6DE009
 press.			86400	IN	DS	4289 8 2 03A4602F454DD05E3EF2B7A9507F7E4EEB78BA9259E35DA7C3B20FD8DA43341A
 a.nic.press.		172800	IN	A	194.169.218.34
 a.nic.press.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:34
 b.nic.press.		172800	IN	A	185.24.64.34
 b.nic.press.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:34
-c.nic.press.		172800	IN	A	185.38.99.3
-c.nic.press.		172800	IN	AAAA	2a02:e180:3:0:0:0:0:3
-d.nic.press.		172800	IN	A	108.59.161.3
-d.nic.press.		172800	IN	AAAA	2a02:e180:4:0:0:0:0:3
+e.nic.press.		172800	IN	A	212.18.248.34
+e.nic.press.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:34
+f.nic.press.		172800	IN	A	212.18.249.34
+f.nic.press.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:34
 prime.			172800	IN	NS	dns1.nic.prime.
 prime.			172800	IN	NS	dns2.nic.prime.
 prime.			172800	IN	NS	dns3.nic.prime.
@@ -12903,18 +12906,18 @@ singles.		86400	IN	DS	53896 8 1 BE14A813732B0BECDB0572A24BC9B0DBB6BF2FA1
 singles.		86400	IN	DS	53896 8 2 91471989E123A1ADF06E3EC47A4705756B1A69E8F276BBC51ACD77D8EB85F9D0
 site.			172800	IN	NS	a.nic.site.
 site.			172800	IN	NS	b.nic.site.
-site.			172800	IN	NS	c.nic.site.
-site.			172800	IN	NS	d.nic.site.
+site.			172800	IN	NS	e.nic.site.
+site.			172800	IN	NS	f.nic.site.
 site.			86400	IN	DS	51676 8 1 90DDBEEEB973B0F8719ED763FB6EEDE97C73ABF5
 site.			86400	IN	DS	51676 8 2 883175F6F5C68EA81563B62D1B2B79B6A997D60DC6E20CC70AFD0CD6B7E82F62
 a.nic.site.		172800	IN	A	194.169.218.61
 a.nic.site.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:61
 b.nic.site.		172800	IN	A	185.24.64.61
 b.nic.site.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:61
-c.nic.site.		172800	IN	A	185.38.99.5
-c.nic.site.		172800	IN	AAAA	2a02:e180:3:0:0:0:0:5
-d.nic.site.		172800	IN	A	108.59.161.5
-d.nic.site.		172800	IN	AAAA	2a02:e180:4:0:0:0:0:5
+e.nic.site.		172800	IN	A	212.18.248.61
+e.nic.site.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:61
+f.nic.site.		172800	IN	A	212.18.249.61
+f.nic.site.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:61
 sj.			172800	IN	NS	nn.uninett.no.
 sj.			172800	IN	NS	nac.no.
 sj.			172800	IN	NS	server.nordu.net.
@@ -13355,18 +13358,18 @@ d.nic.storage.		172800	IN	A	212.18.249.55
 d.nic.storage.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:55
 store.			172800	IN	NS	a.nic.store.
 store.			172800	IN	NS	b.nic.store.
-store.			172800	IN	NS	c.nic.store.
-store.			172800	IN	NS	d.nic.store.
+store.			172800	IN	NS	e.nic.store.
+store.			172800	IN	NS	f.nic.store.
 store.			86400	IN	DS	16342 8 1 C6D41FB11396E2B908BD82ADD46457DAA960EC23
 store.			86400	IN	DS	16342 8 2 E59827295E51C4F46D5208ED454BCD78DD6FFA49F01BD203B24E1380AA535675
 a.nic.store.		172800	IN	A	194.169.218.45
 a.nic.store.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:45
 b.nic.store.		172800	IN	A	185.24.64.45
 b.nic.store.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:45
-c.nic.store.		172800	IN	A	185.38.99.8
-c.nic.store.		172800	IN	AAAA	2a02:e180:3:0:0:0:0:8
-d.nic.store.		172800	IN	A	108.59.161.8
-d.nic.store.		172800	IN	AAAA	2a02:e180:4:0:0:0:0:8
+e.nic.store.		172800	IN	A	212.18.248.45
+e.nic.store.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:45
+f.nic.store.		172800	IN	A	212.18.249.45
+f.nic.store.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:45
 stream.			172800	IN	NS	ns1.dns.nic.stream.
 stream.			172800	IN	NS	ns2.dns.nic.stream.
 stream.			172800	IN	NS	ns3.dns.nic.stream.
@@ -13761,18 +13764,18 @@ team.			86400	IN	DS	29176 8 1 4733E60C55F51B4210DD33FC581616ECE56319C4
 team.			86400	IN	DS	29176 8 2 E1C40AFA6C7D0C07C9C04901ABB95EC5549A74E744DE17198C04103F05FE15B8
 tech.			172800	IN	NS	a.nic.tech.
 tech.			172800	IN	NS	b.nic.tech.
-tech.			172800	IN	NS	c.nic.tech.
-tech.			172800	IN	NS	d.nic.tech.
+tech.			172800	IN	NS	e.nic.tech.
+tech.			172800	IN	NS	f.nic.tech.
 tech.			86400	IN	DS	50095 8 1 82F72F2462DEE25B99DA2470535AD0A7D131F1EB
 tech.			86400	IN	DS	50095 8 2 83F40D01141484D8F07305E5D2E44AC5663149054C598D6E9D993C661686C6EE
 a.nic.tech.		172800	IN	A	194.169.218.60
 a.nic.tech.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:60
 b.nic.tech.		172800	IN	A	185.24.64.60
 b.nic.tech.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:60
-c.nic.tech.		172800	IN	A	185.38.99.6
-c.nic.tech.		172800	IN	AAAA	2a02:e180:3:0:0:0:0:6
-d.nic.tech.		172800	IN	A	108.59.161.6
-d.nic.tech.		172800	IN	AAAA	2a02:e180:4:0:0:0:0:6
+e.nic.tech.		172800	IN	A	212.18.248.60
+e.nic.tech.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:60
+f.nic.tech.		172800	IN	A	212.18.249.60
+f.nic.tech.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:60
 technology.		172800	IN	NS	demand.beta.aridns.net.au.
 technology.		172800	IN	NS	demand.alpha.aridns.net.au.
 technology.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -14173,8 +14176,7 @@ tr.			172800	IN	NS	ns22.nic.tr.
 tr.			172800	IN	NS	ns31.nic.tr.
 tr.			172800	IN	NS	ns41.nic.tr.
 tr.			172800	IN	NS	ns42.nic.tr.
-tr.			172800	IN	NS	ns91.nic.tr.
-tr.			172800	IN	NS	ns92.nic.tr.
+tr.			172800	IN	NS	ns61.nic.tr.
 ns21.nic.tr.		172800	IN	A	213.14.246.2
 ns22.nic.tr.		172800	IN	A	213.14.246.6
 ns31.nic.tr.		172800	IN	A	31.210.155.2
@@ -14182,10 +14184,8 @@ ns41.nic.tr.		172800	IN	A	185.7.0.2
 ns41.nic.tr.		172800	IN	AAAA	2001:a98:10:eeee:0:0:0:41
 ns42.nic.tr.		172800	IN	A	185.7.0.3
 ns42.nic.tr.		172800	IN	AAAA	2001:a98:10:eeee:0:0:0:42
-ns91.nic.tr.		172800	IN	A	162.88.54.1
-ns91.nic.tr.		172800	IN	AAAA	2600:2000:3002:0:0:0:0:1
-ns92.nic.tr.		172800	IN	A	162.88.55.1
-ns92.nic.tr.		172800	IN	AAAA	2600:2000:3003:0:0:0:0:1
+ns61.nic.tr.		172800	IN	A	206.51.254.1
+ns61.nic.tr.		172800	IN	AAAA	2620:171:804:ad2:0:0:0:1
 trade.			172800	IN	NS	ns1.dns.nic.trade.
 trade.			172800	IN	NS	ns2.dns.nic.trade.
 trade.			172800	IN	NS	ns3.dns.nic.trade.
@@ -15205,18 +15205,18 @@ weber.			172800	IN	NS	ac4.nstld.com.
 weber.			86400	IN	DS	32799 8 2 67F60D0F656284C11307FBC8402E280BA0E53D83F601EC4ADF2EB54FCA93AAD9
 website.		172800	IN	NS	a.nic.website.
 website.		172800	IN	NS	b.nic.website.
-website.		172800	IN	NS	c.nic.website.
-website.		172800	IN	NS	d.nic.website.
+website.		172800	IN	NS	e.nic.website.
+website.		172800	IN	NS	f.nic.website.
 website.		86400	IN	DS	47815 8 1 34C5E08B2F09248A85BE31CD465DB919AF06DA90
 website.		86400	IN	DS	47815 8 2 CB5F31743F17C1C1641D7ECC4C7DC40217363645E7AC25C509393C6709D933A8
 a.nic.website.		172800	IN	A	194.169.218.52
 a.nic.website.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:52
 b.nic.website.		172800	IN	A	185.24.64.52
 b.nic.website.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:52
-c.nic.website.		172800	IN	A	185.38.99.1
-c.nic.website.		172800	IN	AAAA	2a02:e180:3:0:0:0:0:1
-d.nic.website.		172800	IN	A	108.59.161.1
-d.nic.website.		172800	IN	AAAA	2a02:e180:4:0:0:0:0:1
+e.nic.website.		172800	IN	A	212.18.248.52
+e.nic.website.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:52
+f.nic.website.		172800	IN	A	212.18.249.52
+f.nic.website.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:52
 wed.			172800	IN	NS	dns1.emdns.uk.
 wed.			172800	IN	NS	dns2.emdns.uk.
 wed.			172800	IN	NS	dns3.emdns.uk.
