@@ -8570,6 +8570,7 @@ ma.			172800	IN	NS	b.tld.ma.
 ma.			172800	IN	NS	c.tld.ma.
 ma.			172800	IN	NS	d.tld.ma.
 ma.			172800	IN	NS	e.tld.ma.
+ma.			172800	IN	NS	f.tld.ma.
 ma.			172800	IN	NS	dns.inria.fr.
 ma.			172800	IN	NS	ns-ma.nic.fr.
 ma.			86400	IN	DS	33982 8 2 3B9F33C27C469841B58463BCBCCDF2A4F129B03723BFA760CC9AC6B08DA47C12
@@ -8586,6 +8587,7 @@ d.tld.ma.		172800	IN	A	81.192.171.116
 d.tld.ma.		172800	IN	A	81.192.171.140
 d.tld.ma.		172800	IN	AAAA	2001:4288:1800:386:0:0:0:4
 e.tld.ma.		172800	IN	A	105.73.80.236
+f.tld.ma.		172800	IN	A	41.214.240.4
 macys.			172800	IN	NS	ac1.nstld.com.
 macys.			172800	IN	NS	ac2.nstld.com.
 macys.			172800	IN	NS	ac3.nstld.com.
@@ -16460,6 +16462,7 @@ xn--mgbc0a9azcg.	172800	IN	NS	b.tld.ma.
 xn--mgbc0a9azcg.	172800	IN	NS	c.tld.ma.
 xn--mgbc0a9azcg.	172800	IN	NS	d.tld.ma.
 xn--mgbc0a9azcg.	172800	IN	NS	e.tld.ma.
+xn--mgbc0a9azcg.	172800	IN	NS	f.tld.ma.
 xn--mgbc0a9azcg.	172800	IN	NS	ns-ma.nic.fr.
 xn--mgbca7dzdo.		172800	IN	NS	gtld.beta.aridns.net.au.
 xn--mgbca7dzdo.		172800	IN	NS	gtld.alpha.aridns.net.au.
