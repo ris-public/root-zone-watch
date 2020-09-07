@@ -8851,20 +8851,6 @@ merckmsd.		172800	IN	NS	ac2.nstld.com.
 merckmsd.		172800	IN	NS	ac3.nstld.com.
 merckmsd.		172800	IN	NS	ac4.nstld.com.
 merckmsd.		86400	IN	DS	23340 8 2 F6643D8AE9760F8033A5A14B231851CEDFF97429EF22514CFCB1BA625EAC86A4
-metlife.		172800	IN	NS	a0.nic.metlife.
-metlife.		172800	IN	NS	a2.nic.metlife.
-metlife.		172800	IN	NS	b0.nic.metlife.
-metlife.		172800	IN	NS	c0.nic.metlife.
-metlife.		86400	IN	DS	50683 7 1 723137048F279D42EDCC313F837BF93CB9A2EEC1
-metlife.		86400	IN	DS	50683 7 2 2646407388289E3BC17A949E5D0FDD8A007A9B328AAAC1E9F05709AA6BAEE436
-a0.nic.metlife.		172800	IN	A	65.22.80.25
-a0.nic.metlife.		172800	IN	AAAA	2a01:8840:4e:0:0:0:0:25
-a2.nic.metlife.		172800	IN	A	65.22.83.25
-a2.nic.metlife.		172800	IN	AAAA	2a01:8840:51:0:0:0:0:25
-b0.nic.metlife.		172800	IN	A	65.22.81.25
-b0.nic.metlife.		172800	IN	AAAA	2a01:8840:4f:0:0:0:0:25
-c0.nic.metlife.		172800	IN	A	65.22.82.25
-c0.nic.metlife.		172800	IN	AAAA	2a01:8840:50:0:0:0:0:25
 mg.			172800	IN	NS	ns.dts.mg.
 mg.			172800	IN	NS	ns.nic.mg.
 mg.			172800	IN	NS	pch.nic.mg.
