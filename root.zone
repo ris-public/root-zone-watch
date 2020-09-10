@@ -11108,6 +11108,7 @@ g-dns.pl.		172800	IN	AAAA	2001:6d8:1001:1:0:0:0:252
 h-dns.pl.		172800	IN	A	185.159.198.48
 h-dns.pl.		172800	IN	AAAA	2620:10a:80ab:0:0:0:0:48
 i-dns.pl.		172800	IN	A	156.154.100.15
+i-dns.pl.		172800	IN	AAAA	2001:502:2eda:0:0:0:0:15
 place.			172800	IN	NS	demand.beta.aridns.net.au.
 place.			172800	IN	NS	demand.alpha.aridns.net.au.
 place.			172800	IN	NS	demand.delta.aridns.net.au.
